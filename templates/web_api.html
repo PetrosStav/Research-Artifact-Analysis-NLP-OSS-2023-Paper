@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>{{data0}}</title>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript">
+        function auto_height(elem) {
+            var scrollLeft = window.pageXOffset ||
+            (document.documentElement || document.body.parentNode || document.body).scrollLeft;
+
+            var scrollTop  = window.pageYOffset ||
+            (document.documentElement || document.body.parentNode || document.body).scrollTop;
+
+            elem.style.height = "1px";
+            elem.style.height = (elem.scrollHeight)+"px";
+
+            window.scrollTo(scrollLeft, scrollTop);
+        }
+    </script>
+</head>
+
+<body class="flex flex-wrap" onload="resize_textareas()">
+    <div class="w-full mb-6 p-4 mx-auto bg-indigo-600">
+        <h4 class="text-white text-center text-2xl">{{data0}}</h4>
+    </div>
+    
+    <div class="container my-6 p-4 mx-auto">
+        <div class="lg:w-2/3 md:w-3/3 mx-auto">
+        <h3 class="text-base">
+            Write a task in <strong>natural language</strong> in the input textbox and <strong>{{data0}}</strong> will provide the answer in the output.
+        </h3>
+                <form class="my-6" action="/web_api" method="POST">
+
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+                        Input text
+                    </label>
+
+                    <textarea type="text" name="input" id="input" placeholder="" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="1" onclick="auto_height(this)" oninput="auto_height(this)" style="width:100%">{{data1}}</textarea>
+
+                    <label class="mt-4 block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" id="t_maxlen">
+                        Max Length
+                    </label>
+                    <input type="number" id="maxlen" name="maxlen" value="{{data3}}" min="0" max="1024" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+
+                    <label class="mt-4 block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" id="t_maxlen">
+                        Arguments (key=value)
+                    </label>
+                    
+                    <textarea type="text" name="args" id="args" placeholder="" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="1" onclick="auto_height(this)" oninput="auto_height(this)" style="width:100%">{{data4}}</textarea>
+
+                    <label class="mt-4 block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" id="t_desc">
+                        Output
+                    </label>
+                    <textarea type="text" name="output" id="output" placeholder="" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="1" onclick="auto_height(this)" style="width:100%">{{data2}}</textarea>
+
+                    <input name="submit" id="submit" class="cursor-pointer mt-5 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" type="submit" value="Submit">
+                    
+                </form>
+        </div>
+</div>
+
+</body>
+</html>
+
