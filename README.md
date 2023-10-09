@@ -23,7 +23,7 @@ The datasets contain **named and unnamed (valid) mentions of dataset and softwar
 | **Provenance** | No                                                                                                                                                                                                                   |
 | **Usage**      | Yes                                                                                                                                                                                                                  |
 
-Each snippet in the above datasets are transformed into **Question-Answer (QA) pairs**, so that they can be answered by the LLMs and fill out the above Snippet template.
+Each snippet in the above datasets is transformed into **Question-Answer (QA) pairs**, so that they can be answered by the LLMs and fill out the above Snippet template.
 
 **QA pair transformation** of the above example:
 
@@ -41,7 +41,7 @@ Each snippet in the above datasets are transformed into **Question-Answer (QA) p
 
 # Dataset Reconstruction
 
-The original `Synthetic` and `Hybrid` datasets that contain the Snippets with their metadata can be found in the `./data/raa_synthetic_dataset.json` and `data\raa_hybrid_dataset.json` files.
+The original `Synthetic` and `Hybrid` datasets that contain the Snippets with their metadata can be found in the `./data/raa_synthetic_dataset.json` and `./data/raa_hybrid_dataset.json` files.
 
 To **augment the datasets**, reconstruct the `Synthetic` and `Hybrid` **transformed QA pairs**, and split them into **train, dev and test sets**, please follow these steps:
 
@@ -56,16 +56,16 @@ The final train, dev and test set files for the Synthetic and Hybrid datasets ar
 
 | Dataset | File |
 | --- | --- |
-| **Synthetic** | `raa_synthetic_dataset_aug_transformed_train.json` |
-|  | `raa_synthetic_dataset_aug_transformed_dev.json` |
-|  | `raa_synthetic_dataset_aug_transformed_test.json` |
-| **Hybrid** | `raa_hybrid_dataset_aug_transformed_train.json` |
-|  | `raa_hybrid_dataset_aug_transformed_dev.json` |
-|  | `raa_hybrid_dataset_aug_transformed_test.json` |
+| **Synthetic** | `./data/raa_synthetic_dataset_aug_transformed_train.json` |
+|  | `./data/raa_synthetic_dataset_aug_transformed_dev.json` |
+|  | `./data/raa_synthetic_dataset_aug_transformed_test.json` |
+| **Hybrid** | `./data/raa_hybrid_dataset_aug_transformed_train.json` |
+|  | `./data/raa_hybrid_dataset_aug_transformed_dev.json` |
+|  | `./data/raa_hybrid_dataset_aug_transformed_test.json` |
 
 # Dataset Statistics
 
-We provide three scripts `create_dataset_statistics_synthetic`, `create_dataset_statistics_hybrid` and `print_latex_dataset_statistics` which construct the statistics for the `Synthetic` and `Hybrid` datasets and convert them to LATEX format.
+We provide three scripts `create_dataset_statistics_synthetic.py`, `create_dataset_statistics_hybrid.py` and `print_latex_dataset_statistics.py` which construct the statistics for the `Synthetic` and `Hybrid` datasets and convert them to LATEX format.
 
 Here we present them in markdown:
 
