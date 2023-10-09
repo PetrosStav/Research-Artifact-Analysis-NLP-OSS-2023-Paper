@@ -40,7 +40,7 @@ Each snippet in the above datasets is transformed into **Question-Answer (QA) pa
 
 # Setup
 
-To setup this repository, clone it, create a new conda environment, activate it and run `"pip install -r requirements.txt"`.
+To setup this repository: clone it, create a new conda environment, activate it and run `"pip install -r requirements.txt"`.
 
 # Dataset Reconstruction
 
