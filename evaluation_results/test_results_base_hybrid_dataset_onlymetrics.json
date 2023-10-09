@@ -1,0 +1,279 @@
+{
+ "questions_to_scores": {
+  "Is there a valid software defined in the <m> and </m> tags?": {
+   "category": "yes_no",
+   "yes_no_binary": {
+    "precision": 1.0,
+    "recall": 0.4987593052109181,
+    "f1": 0.6655629139072848
+   }
+  },
+  "What is the name of the software defined in the <m> and </m> tags?": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 0.6857142857142857,
+    "recall": 0.3076923076923077,
+    "f1": 0.4247787610619469
+   },
+   "w_answer": {
+    "em": 0.6114649681528662,
+    "lm": 0.7611464968152867
+   },
+   "all": {
+    "em": 0.5510204081632653,
+    "lm": 0.6709183673469388
+   }
+  },
+  "What is the version of the software defined in the <m> and </m> tags?": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 1.0,
+    "recall": 0.777292576419214,
+    "f1": 0.8746928746928747
+   },
+   "w_answer": {
+    "em": 0.6196319018404908,
+    "lm": 0.8159509202453987
+   },
+   "all": {
+    "em": 0.7117346938775511,
+    "lm": 0.7933673469387755
+   }
+  },
+  "What is the license of the software defined in the <m> and </m> tags?": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 0.9959839357429718,
+    "recall": 0.9253731343283582,
+    "f1": 0.9593810444874274
+   },
+   "w_answer": {
+    "em": 0.7419354838709677,
+    "lm": 0.9274193548387096
+   },
+   "all": {
+    "em": 0.8673469387755102,
+    "lm": 0.9260204081632653
+   }
+  },
+  "What is the URL of the software defined in the <m> and </m> tags?": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 0.914396887159533,
+    "recall": 0.7142857142857143,
+    "f1": 0.8020477815699659
+   },
+   "w_answer": {
+    "em": 0.25396825396825395,
+    "lm": 0.2857142857142857
+   },
+   "all": {
+    "em": 0.6403061224489796,
+    "lm": 0.6454081632653061
+   }
+  },
+  "Is the software defined in the <m> and </m> tags introduced or created by the authors of the publication in the snippet above?": {
+   "category": "yes_no",
+   "yes_no_binary": {
+    "precision": 0.2731707317073171,
+    "recall": 0.4057971014492754,
+    "f1": 0.326530612244898
+   }
+  },
+  "Is the software defined in the <m> and </m> tags used or adopted by the authors of the publication in the snippet above?": {
+   "category": "yes_no",
+   "yes_no_binary": {
+    "precision": 1.0,
+    "recall": 0.2082018927444795,
+    "f1": 0.34464751958224543
+   }
+  },
+  "Is there a valid dataset defined in the <m> and </m> tags?": {
+   "category": "yes_no",
+   "yes_no_binary": {
+    "precision": 0.9102040816326531,
+    "recall": 0.8643410852713178,
+    "f1": 0.8866799204771372
+   }
+  },
+  "What is the name of the dataset defined in the <m> and </m> tags?": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 0.5555555555555556,
+    "recall": 0.22058823529411764,
+    "f1": 0.31578947368421056
+   },
+   "w_answer": {
+    "em": 0.6145833333333334,
+    "lm": 0.7864583333333334
+   },
+   "all": {
+    "em": 0.5115384615384615,
+    "lm": 0.6384615384615384
+   }
+  },
+  "What is the version of the dataset defined in the <m> and </m> tags?": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 1.0,
+    "recall": 0.4153846153846154,
+    "f1": 0.5869565217391305
+   },
+   "w_answer": null,
+   "all": {
+    "em": 0.4153846153846154,
+    "lm": 0.4153846153846154
+   }
+  },
+  "What is the license of the dataset defined in the <m> and </m> tags?": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 0.9875776397515528,
+    "recall": 0.8784530386740331,
+    "f1": 0.9298245614035089
+   },
+   "w_answer": {
+    "em": 0.12658227848101267,
+    "lm": 0.6329113924050633
+   },
+   "all": {
+    "em": 0.65,
+    "lm": 0.8038461538461539
+   }
+  },
+  "What is the URL of the dataset defined in the <m> and </m> tags?": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 1.0,
+    "recall": 0.40948275862068967,
+    "f1": 0.581039755351682
+   },
+   "w_answer": {
+    "em": 0.5,
+    "lm": 0.5
+   },
+   "all": {
+    "em": 0.41923076923076924,
+    "lm": 0.41923076923076924
+   }
+  },
+  "Is the dataset defined in the <m> and </m> tags introduced or created by the authors of the publication in the snippet above?": {
+   "category": "yes_no",
+   "yes_no_binary": {
+    "precision": 0.6030150753768844,
+    "recall": 0.916030534351145,
+    "f1": 0.7272727272727272
+   }
+  },
+  "Is the dataset defined in the <m> and </m> tags used or adopted by the authors of the publication in the snippet above?": {
+   "category": "yes_no",
+   "yes_no_binary": {
+    "precision": 0.35294117647058826,
+    "recall": 0.09375,
+    "f1": 0.14814814814814814
+   }
+  },
+  "List all the artifacts in the above snippet.": {
+   "category": "extraction",
+   "no_answer_binary": {
+    "precision": 0,
+    "recall": 0.0,
+    "f1": 0
+   },
+   "w_answer": {
+    "em": 0.0,
+    "lm": 0.0
+   },
+   "all": {
+    "em": 0.0,
+    "lm": 0.0
+   }
+  }
+ },
+ "overall_metrics": {
+  "validity": {
+   "yes_no_binary": {
+    "precision": 0.9506726457399103,
+    "recall": 0.6414523449319214,
+    "f1": 0.7660343270099368
+   }
+  },
+  "metadata": {
+   "name": {
+    "no_answer_binary": {
+     "precision": 0.6290322580645161,
+     "recall": 0.2671232876712329,
+     "f1": 0.37499999999999994
+    },
+    "w_answer": {
+     "em": 0.6126482213438735,
+     "lm": 0.7707509881422925
+    },
+    "all": {
+     "em": 0.5352760736196319,
+     "lm": 0.6579754601226994
+    }
+   },
+   "version": {
+    "no_answer_binary": {
+     "precision": 1.0,
+     "recall": 0.5848670756646217,
+     "f1": 0.7380645161290322
+    },
+    "w_answer": {
+     "em": 0.6196319018404908,
+     "lm": 0.8159509202453987
+    },
+    "all": {
+     "em": 0.593558282208589,
+     "lm": 0.6426380368098159
+    }
+   },
+   "license": {
+    "no_answer_binary": {
+     "precision": 0.9926829268292683,
+     "recall": 0.9064587973273942,
+     "f1": 0.9476135040745053
+    },
+    "w_answer": {
+     "em": 0.5024630541871922,
+     "lm": 0.812807881773399
+    },
+    "all": {
+     "em": 0.7806748466257669,
+     "lm": 0.8773006134969326
+    }
+   },
+   "url": {
+    "no_answer_binary": {
+     "precision": 0.9375,
+     "recall": 0.5882352941176471,
+     "f1": 0.7228915662650602
+    },
+    "w_answer": {
+     "em": 0.32967032967032966,
+     "lm": 0.3516483516483517
+    },
+    "all": {
+     "em": 0.5521472392638037,
+     "lm": 0.5552147239263804
+    }
+   },
+   "all": {}
+  },
+  "ownership": {
+   "yes_no_binary": {
+    "precision": 0.43564356435643564,
+    "recall": 0.654275092936803,
+    "f1": 0.5230312035661219
+   }
+  },
+  "usage": {
+   "yes_no_binary": {
+    "precision": 0.78,
+    "recall": 0.1752808988764045,
+    "f1": 0.2862385321100917
+   }
+  }
+ }
+}
