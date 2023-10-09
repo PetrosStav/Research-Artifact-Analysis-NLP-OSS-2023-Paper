@@ -1,0 +1,88 @@
+The researchers developed a novel algorithm for image segmentation, called segnet++. It is an extension of the original SegNet algorithm and incorporates additional deep learning techniques. SegNet++ (v2.0) achieved state-of-the-art performance on various benchmark datasets, including PASCAL VOC and Cityscapes. The algorithm is publicly available under the Apache 2.0 license and can be accessed at https://github.com/segnetpp. The authors extensively evaluated segnet++ on different computer vision tasks, demonstrating its effectiveness in semantic segmentation and object recognition.
+
+Psychologists collect and analyze psychological data to gain insights into cognitive processes, emotions, and individual behavior.
+
+The RStudio software (version 1.3.1093) was employed for statistical analysis and visualization of the data collected from the field surveys. RStudio is licensed under the AGPL v3 license.
+
+We present the COVID-19 Patient Dataset, a collection of medical records from patients diagnosed with COVID-19. The dataset includes demographic information, clinical symptoms, laboratory test results, and treatment outcomes. The dataset is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
+
+Our experiments were conducted using the data processing software datapro. The software version used was 1.5. It is distributed under the GNU Lesser General Public License.
+
+We employed the widely-used simulation software called SimuTech for our experiments. The software offers advanced modeling and simulation features.
+
+In their research, the authors utilized their custom machine learning algorithm (version 2.0) for data classification tasks. The algorithm, developed and owned by the authors, incorporates novel techniques and optimizations specifically tailored to their research problem. Its ownership allows for full control, modification, and further improvements according to their research needs.
+
+We created a unique software called medpredict to help with medical diagnosis. The software, version 3.0, is available on our official website.
+
+We developed a custom optimization software called optipro. The current version of the software is 1.2 and it is released under the Apache License 2.0.
+
+We present a new dataset named musiccorpus, which consists of 10,000 MIDI files of various music genres. The dataset is owned by our research team and can be accessed upon request.
+
+We collected a new dataset named socialmedia, which consists of 10,000 social media posts. The dataset is owned by our research group and can be accessed upon signing a data usage agreement.
+
+Bringing the uci machine learning repository dataset to fit our needs, we did some experiments. The dataset contains various real-world datasets for machine learning tasks. It can be accessed at https://archive.ics.uci.edu/ml. The UCI Machine Learning Repository is a renowned resource for researchers and practitioners in the field of machine learning. It hosts a vast collection of datasets covering diverse domains, making it an invaluable asset for benchmarking algorithms, developing new models, and advancing the field of machine learning.
+
+The survey was conducted using Google Forms.
+
+We conducted experiments using the glove embeddings as a pre-trained feature representation for our natural language processing tasks. glove embeddings capture semantic relationships between words.
+
+Our experiments involve the use of the IMDB dataset, which consists of movie reviews. The dataset has been widely used in sentiment analysis research.
+
+In the realm of data analysis, various methods are employed to uncover meaningful insights from complex datasets.
+
+The authors integrated several research artifacts to support their investigations. They utilized the nltk (Natural Language Toolkit) library (v3.6.2) and the SpaCy library (v3.1.4) for natural language processing tasks. nltk, available under the Apache 2.0 license, provided a comprehensive set of tools for text analysis and linguistic processing. SpaCy, released under the MIT license, offered advanced capabilities for information extraction and entity recognition. These artifacts enabled the authors to perform in-depth analysis and annotation of textual data in their study.
+
+To train HeadlineSense, our news headline classification model, we used the News Headlines Dataset, which consists of headlines from news articles. The dataset is widely used for text classification tasks. It is released under the Open Data Commons Attribution License (ODC-BY).
+
+The authors used the scikit-learn library (version 0.24.2) for performing various machine learning tasks in their research. scikit-learn, a powerful and widely adopted Python library, offers a rich set of tools and algorithms for data analysis and modeling. It is distributed under the permissive MIT license, making it accessible for both academic and commercial use. For additional details and documentation, please refer to the official scikit-learn website at https://scikit-learn.org/.
+
+We adapted the UCI Machine Learning Repository for our experiments. The repository contains various real-world datasets for machine learning tasks. It can be accessed at https://archive.ics.uci.edu/ml.
+
+The researchers developed a novel algorithm for image segmentation, called segnet++. It is an extension of the original SegNet algorithm and incorporates additional deep learning techniques. segnet++ (v2.0) achieved state-of-the-art performance on various benchmark datasets, including PASCAL VOC and Cityscapes. The algorithm is publicly available under the Apache 2.0 license and can be accessed at https://github.com/segnetpp. The authors extensively evaluated SegNet++ on different computer vision tasks, demonstrating its effectiveness in semantic segmentation and object recognition.
+
+In their study, the authors incorporated various research artifacts. They employed the Apache Spark (v3.1.2) distributed computing framework and the hadoop (v3.3.1) big data processing platform. Apache Spark, licensed under the Apache 2.0 license, allowed efficient processing and analysis of large-scale datasets. hadoop, also released under the Apache 2.0 license, provided a robust infrastructure for distributed storage and processing. These artifacts were instrumental in handling and analyzing massive amounts of data in their research.
+
+The domain of computer science is crowded by many machine learning models.
+
+The authors mentioned the resnet architecture as the basis for their deep learning models. resnet is a popular deep neural network architecture introduced by He et al. in their paper 'Deep Residual Learning for Image Recognition'.
+
+In their study, the authors referred to the Stanford Sentiment Treebank dataset for sentiment analysis. The dataset is publicly available and can be accessed at https://nlp.stanford.edu/sentiment/index.html.
+
+For the experiments, we employed the widely-used data analysis software called AnalyzePro. The software offers advanced statistical analysis features.
+
+The authors utilized their custom Python library (version 1.5) for data preprocessing and feature extraction. The library is open source and available at https://github.com/mycustomlibrary.
+
+The authors discussed the gaussian process model for regression analysis. gaussian processes are extensively covered in the book 'gaussian processes for Machine Learning' by Rasmussen and Williams.
+
+In this paper, we have discussed the applications of Java programming language in the field of computer science.
+
+Our experiments were conducted using the statistical analysis software StatX. The software is currently at version 3.5 and is licensed under the MIT License.
+
+We collected the Moviewatchers Survey Dataset by conducting a survey among movie enthusiasts. The dataset contains ratings, reviews, and preferences of the participants. It is distributed under the Open Database License (ODbL).
+
+We utilized the Caffe deep learning framework for model training, and the evaluation was conducted on the ImageNet dataset. The framework is available at https://caffe.berkeleyvision.org.
+
+We manually collected a remarkable dataset consisting of customer reviews from various e-commerce websites. This extensive dataset comprises 100,000 reviews encompassing diverse product categories. Researchers can request access to this dataset by sending an email to alex@abc.com.
+
+The authors used their custom image segmentation method for analyzing medical images. The details of the method can be found in their previous publication.
+
+So far we assumed that the victim and the attacker both fine-tune a pretrained BERT-large model. However, in practical scenarios, the attacker might not have information about the victim architecture. What happens when the attacker fine-tunes a different base model than the victim? What if the attacker extracts a QA model from scratch instead of fine-tuning a large pretrained language model? Here, we examine how much the extraction accuracy depends on the pretraining setup.
+
+The cost of vision-and-language pre-training has become increasingly prohibitive due to end-toend training of large-scale models. This paper proposes blip-2, a generic and efficient pretraining strategy that bootstraps vision-language pre-training from off-the-shelf frozen pre-trained image encoders and frozen large language models. blip-2 bridges the modality gap with a lightweight Querying Transformer, which is pretrained in two stages. The first stage bootstraps vision-language representation learning from a frozen image encoder. The second stage bootstraps vision-to-language generative learning from a frozen language model. blip-2 achieves state-of-the-art performance on various visionlanguage tasks, despite having significantly fewer trainable parameters than existing methods. For example, our model outperforms Flamingo80B by 8.7% on zero-shot VQAv2 with 54x fewer trainable parameters. We also demonstrate the model's emerging capabilities of zero-shot image-to-text generation that can follow natural language instructions.
+
+Whenever people log onto computers, access an ATM, pass through airport security, use credit cards, or enter highsecurity areas, their identities need to be verified [5,6]. There is tremendous interest in reliable and secure identification methods. An active research area of this involves gender classification. Algorithms for automatic gender classification have several applications. They can be used for database binning and retrieval, for intelligent user interfaces or visual surveillance. They can also be used to provide demographic information to improve social services, to facilitate payment methods and for marketing applications in general.
+
+To train our introduced learnable parameters, we compose a dataset of 44K fine-grained masks from several sources. hq-sam is only trained on the introduced detaset of 44k masks, which takes only 4 hours on 8 GPUs. We show the efficacy of hq-sam in a suite of 9 diverse segmentation datasets across different downstream tasks, where 7 out of them are evaluated in a zero-shot transfer protocol. Our code and models will be released at https://github.com/SysCV/SAM-HQ.
+
+In this paper, we apply a general deep learning (DL) framework for the answer selection task, which does not depend on manually defined features or linguistic tools. The basic framework is to build the embeddings of questions and answers based on bidirectional long short-term memory (biLSTM) models, and measure their closeness by cosine similarity. We further extend this basic model in two directions. One direction is to define a more composite representation for questions and answers by combining convolutional neural network with the basic framework. The other direction is to utilize a simple but efficient attention mechanism in order to generate the answer representation according to the question context. Several variations of models are provided. The models are examined by two datasets, including TREC-QA and insuranceqa. Experimental results demonstrate that the proposed models substantially outperform several strong baselines.
+
+We present the first large-scale pre-trained multilingual model for phoneme representations, which we name XPhoneBERT. \u2022 On the downstream TTS task, XPhoneBERT helps significantly improve the performance of the strong baseline vits, thus confirming its effectiveness.
+
+Some methods freeze the image encoder, including the early work which adopts a frozen object detector to extract visual features (Chen et al., 2020;Li et al., 2020;Zhang et al., 2021), and the recent LiT (Zhai et al., 2022) which uses a frozen pre-trained image encoder for CLIP (Radford et al., 2021) pre-training.
+
+Most biometric recognition work pertaining to NIR iris images have focused on extracting the iris region from the captured ocular image (see Figure 1). Thus, algorithms for soft biometric prediction have typically focused on the iris region rather than the extended ocular region (see Figure 4). Recent work [28] based on the binarized statistical image feature (bsif) descriptor has shown that the extended ocular region commonly imaged by iris recognition systems provides greater sex prediction accuracy than the iris-only region. Predicting soft biometric attributes from the ocular region provides one major advantage over the iris region in that it does not require a potentially error prone algorithm for iris region extraction. Bobeldyk and Ross [28] were able to achieve an 85.7% sex prediction accuracy using concatenated histograms from tesselated regions of the BSIF code computed from NIR ocular images.
+
+To address this accuracy issue, we introduce the Sparse-Quantized Representation (SpQR), a new compressed format and quantization technique which enables for the first time near-lossless compression of LLMs across model scales, while reaching similar compression levels to previous methods.
+
+We also experiment with another setting where the tts training data is limited. In particular, for each language, we Table 2: Obtained results on the English test set. \"100%\" and \"5%\" denote the first experimental setting of using the whole tts training set and the second experimental setting of using only 5% of the tts training set for training, respectively. \"XPB\" abbreviates our XPhoneBERT. The MOS is reported with 95% confidence intervals (here, each MOS score difference between two models is significant with p-value < 0.05). randomly sample 5% of the training audio clips, and then only use those sampled audios for training (total duration of about 1.2 hours for English and about 0.9 hours for Vietnamese). We apply the same training protocol used for the first setting with an exception that we run for 100K training steps.
+

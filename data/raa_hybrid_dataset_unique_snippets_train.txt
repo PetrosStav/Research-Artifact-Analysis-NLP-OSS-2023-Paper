@@ -1,0 +1,686 @@
+A new dataset called ImageNet-10K was created by our team, which contains 10,000 high-resolution images across 1,000 categories. The dataset can be accessed at https://www.imagelibrary.com/dataset/imagenet-10k. ImageNet-10K serves as a valuable resource for training and evaluating computer vision models, allowing researchers and practitioners to develop algorithms that can accurately classify and understand a diverse range of visual data. The dataset's large-scale nature and carefully annotated labels make it a benchmark dataset in the field of computer vision.
+
+The authors mentioned using the Scikit-learn library(version 0.24.2) for implementing various machine learning algorithms. Scikit-learn is a popular open-source library available at https://scikit-learn.org/.
+
+We used the glove word embeddings as a pre-trained feature representation in our natural language processing tasks. glove embeddings capture semantic relationships between words.
+
+We referred to the uci machine learning repository for obtaining benchmark datasets. The UCI Repository is a valuable resource for machine learning researchers. Explore it at https://archive.ics.uci.edu/ml/index.php.
+
+The word embeddings for all of the models are initialized with the 300d reference GloVe vectors (840B token version, Pennington et al. 2014) and fine-tuned as part of training.
+
+In this study, we utilized a custom-built simulation software to model the behavior of complex systems. The software incorporates advanced algorithms and mathematical models to simulate real-world scenarios accurately.
+
+The authors discussed the gaussian process model for regression analysis. Gaussian Processes are extensively covered in the book 'gaussian processes for Machine Learning' by Rasmussen and Williams.
+
+In order to meticulously evaluate the commendable performance exhibited by our innovative algorithm, we conducted thorough experimentation utilizing the widely acclaimed mnist dataset. This quintessential benchmark dataset is renowned in the realm of machine learning, as it expertly encompasses a comprehensive collection of meticulously annotated handwritten digit images. You can effortlessly download this dataset from our official website at http://yann.lecun.com/exdb/mnist.
+
+The authors employed the Stanford CoreNLP toolkit for natural language processing tasks. Stanford CoreNLP provides a suite of NLP tools and models.
+
+The authors extensively utilized a wide range of research artifacts in their investigations. They employed PyTorch (v1.9.0) and TensorFlow (v2.5.0), prominent deep learning libraries released under the BSD-3-Clause and Apache 2.0 licenses, respectively. PyTorch can be accessed at https://pytorch.org/, while TensorFlow can be found at https://www.tensorflow.org/. Moreover, they leveraged Scikit-learn (v0.24.2), a powerful machine learning library distributed under the permissive MIT license, which is available at https://scikit-learn.org/. Additionally, they employed the coco (Common Objects in Context) dataset (v2017) and the ImageNet dataset, both widely used benchmarks in computer vision research. The coco dataset can be obtained from http://cocodataset.org/, while the ImageNet dataset can be accessed at http://www.image-net.org/. Furthermore, they utilized the WordNet lexical database (v3.1), a valuable resource for natural language processing tasks, which can be accessed at https://wordnet.princeton.edu/.
+
+The experiments were conducted using the TensorFlow framework (version 2.5.0). The code implementation can be found in the project's GitHub repository.
+
+In the paper, the authors discussed the matlab software for signal processing and data analysis. matlab is a proprietary programming environment developed by MathWorks.
+
+We performed a thorough data analysis using python's pandas library.
+
+We used the nyc taxi trip duration dataset for our analysis. The dataset includes information about taxi trips in New York City, such as pickup and drop-off locations, trip duration, and fare amounts. It is publicly available and can be accessed through the NYC Open Data portal.
+
+In our study, we utilized the PubMed database, which contains a vast collection of biomedical literature. The database can be accessed at https://www.ncbi.nlm.nih.gov/pubmed.
+
+The authors referenced the pubmed database for retrieving relevant articles. pubmed is a widely used repository of biomedical literature. Visit https://pubmed.ncbi.nlm.nih.gov/ for more information.
+
+The authors mentioned the random forest algorithm as a baseline for their regression task. random forest is an ensemble learning method based on decision trees.
+
+Our research utilizes the cifar-100 dataset, which consists of 100 classes of natural images. The dataset is widely used for object recognition tasks and is freely available for academic purposes.
+
+To evaluate the performance of our model, we used the IMDb Sentiment Analysis Dataset. The dataset contains movie reviews labeled with positive or negative sentiment. It is released under the Open Data Commons Attribution License (ODC-BY).
+
+The domain of natural language processing heavily relies on advanced models to improve machine comprehension and language generation.
+
+Our research project utilized the advanced simulation software developed in-house. The software incorporates cutting-edge algorithms and models for accurate simulations.
+
+In their related work, Smith et al. (2021) utilized the popular natural language processing software called spaCy. It offers efficient text processing capabilities, including tokenization, part-of-speech tagging, and named entity recognition.
+
+The authors used the Scikit-learn library (version 0.24.2) for machine learning tasks in their research. Scikit-learn is distributed under the permissive MIT license. Additional details can be found at https://scikit-learn.org/.
+
+We used the SciPy library (version 1.7.0) for scientific computations. SciPy is released under the BSD license and can be accessed at https://www.scipy.org/.
+
+The other researchers evaluated different algorithms using publicly available datasets.
+
+We used the COCO dataset, version 2021, for object detection task using the TensorFlow object detection API. The dataset can be accessed at http://cocodataset.org.
+
+The field of robotics has seen significant advancements with the introduction of sophisticated techniques capable of autonomous decision-making.
+
+We collected a new dataset of customer reviews from various e-commerce websites. The dataset consists of 100,000 reviews across different product categories. Access to the dataset can be requested by sending an email to george.timson@gmail.com.
+
+For the purpose of our experiments, we meticulously adapted the widely renowned UCI Machine Learning Repository dataset. This repository boasts an extensive collection of real-world datasets meticulously crafted to cater to a plethora of machine learning tasks. You can conveniently access this invaluable resource by navigating to https://archive.ics.uci.edu/ml.
+
+Within the domain of software engineering, models are utilized to streamline the development process and ensure the quality of software applications.
+
+To cater to our requirements, we integrated the UCI Machine Learning Repository dataset, a compilation of diverse real-world datasets specifically curated for machine learning tasks. Access to this comprehensive dataset is available through the following URL: https://archive.ics.uci.edu/ml.
+
+For sentiment analysis, we employed the NLTK library (version 3.6.3) in Python. NLTK is a powerful natural language processing toolkit. It can be accessed at https://www.nltk.org.
+
+In this study, the researchers conducted a comprehensive analysis of public health surveillance data, collected over a ten-year period. The surveillance data included information about disease outbreaks, hospitalizations, and population demographics. To process and analyze the data, they utilized the R (v4.1.0) programming language and the dplyr package, a powerful tool for data manipulation and transformation in R. These artifacts enabled them to perform complex data queries, calculate statistics, and generate visualizations. Furthermore, they employed the seir (Susceptible-Exposed-Infectious-Recovered) model, a widely used epidemiological model, to simulate the spread of infectious diseases and assess intervention strategies.
+
+The authors incorporated the OpenCV library for imageprocessing tasks. OpenCV is a popular computer vision library with a wide range of functions and algorithms.
+
+The WordNet lexical database was built by Princeton University and remains a valuable resource for semantic analysis.
+
+We developed a custom simulation software called simpro. The current version of the software is 3.0 and it is released under the MIT License.
+
+In this section, we compare the performance of three such models on the corpus.
+
+Game developers utilize sophisticated models to create realistic simulations and intelligent virtual opponents, enhancing the overall gaming experience.
+
+The research project utilized the custom-built simulation software developed by our team. The software incorporates specialized algorithms for accurate simulations.
+
+In their research, the authors incorporated various research artifacts. They employed the Stanford CoreNLP (v4.2.2) library, a powerful natural language processing toolkit, which can be found at https://stanfordnlp.github.io/CoreNLP/. The library enabled them to perform advanced linguistic analysis and sentiment analysis tasks. Additionally, they utilized the gensim library (v4.1.2), a popular tool for topic modeling and document similarity analysis. gensim is publicly available at https://radimrehurek.com/gensim/. These artifacts significantly contributed to their text mining and analysis pipeline.
+
+In their research, the authors incorporated diverse research artifacts. They employed the scipy (v1.7.0) scientific computing library and the Pandas (v1.3.0) data manipulation library. scipy, released under the BSD-3-Clause license, provided a wide range of numerical algorithms and statistical functions. Pandas, also released under the BSD-3-Clause license, offered powerful data structures and data analysis tools. These artifacts facilitated efficient data processing, statistical analysis, and visualization in their study.
+
+For the purpose of our experiments, we meticulously adapted the widely renowned uci machine learning repository dataset. This repository boasts an extensive collection of real-world datasets meticulously crafted to cater to a plethora of machine learning tasks. You can conveniently access this invaluable resource by navigating to https://archive.ics.uci.edu/ml.
+
+We utilized the ibm watson platform for natural language understanding and sentiment analysis. ibm watson offers a range of AI-powered services.
+
+The widely-used Scikit-learn software for machine learning was discussed in this paper.
+
+We conducted experiments using the GloVe embeddings as a pre-trained feature representation for our natural language processing tasks. glove embeddings capture semantic relationships between words.
+
+We used the Keras library (version 2.4.3) for the development of our deep learning models. Keras is released under the MIT License. The data for model training was sourced from the coco dataset.
+
+Bringing the uci machine learning repository dataset to fit our needs, we did some experiments. The dataset contains various real-world datasets for machine learning tasks. It can be accessed at https://archive.ics.uci.edu/ml. The uci machine learning repository is a renowned resource for researchers and practitioners in the field of machine learning. It hosts a vast collection of datasets covering diverse domains, making it an invaluable asset for benchmarking algorithms, developing new models, and advancing the field of machine learning.
+
+As part of their research, the scientists conducted experiments using a genomics dataset that contained DNA sequences of individuals with different health conditions. The dataset was acquired from a public repository and had annotations for genetic variants and associated phenotypes. The researchers employed the Biopython (v1.79) library, a powerful tool for biological computation, to process and analyze the genomics data. Additionally, they utilized the Seaborn (v0.11.2) library for generating informative visualizations. The genomics dataset, Biopython, and Seaborn played a critical role in unraveling genetic factors contributing to various health conditions.
+
+We leveraged the power of the apache spark framework for distributed data processing. The code implementation is available on our project's GitHub repository.
+
+For carrying out the simulations, our research project employed our proprietary in-house SimulatorX software, which was exclusively developed to cater to the specific requirements of this investigation. The software remains under our institution's ownership and has restricted access.
+
+Our research utilizes the CIFAR-100 dataset, which consists of 100 classes of natural images. The dataset is widely used for object recognition tasks and is freely available for academic purposes.
+
+The authors mentioned the Bag-of-Words model as a baseline for text classification. The model represents text as a simple frequency-based feature vector.
+
+The PyTorch library, developed by Facebook's AI Research lab, has been popular in the machine learning community.
+
+We introduce BIOMRC, a large-scale cloze-style biomedical MRC dataset. Care was taken to reduce noise, compared to the previous bioread dataset of Pappas et al. (2018).
+
+We compared the results of our experiments with previous findings.
+
+To evaluate the performance of our algorithm ImageSense, we used the widely-used cifar-100 dataset, which consists of 100 classes of 32x32 color images. The dataset can be downloaded from https://www.cs.toronto.edu/~kriz/cifar-100.html.
+
+We leveraged OpenAI's GPT-3 model, an advanced language prediction model developed by OpenAI. The model (version 3.0) is available under a research license at https://openai.com/research/gpt-3.
+
+In this study, the authors mentioned the use of Python programming language (version 3.9) for data analysis and visualization. Python is an open-source language available at https://www.python.org/.
+
+The study used the fastqc software to assess the quality of raw sequencing data. It's available under the GNU General Public License and can be downloaded from https://www.bioinformatics.babraham.ac.uk/projects/fastqc/. We also used Bowtie2 for alignment.
+
+Of the two RNN models, the LSTM's more robust ability to learn long-term dependencies serves it well, giving it a substantial advantage over the plain RNN, and resulting in performance that is essentially equivalent to the lexicalized classifier on the test set (LSTM performance near the stopping iteration varies by up to 0.5% between evaluation steps).
+
+To evaluate the performance of our algorithm, we used the well-known MNIST dataset, which consists of handwritten digit images. The dataset is widely used in the field of machine learning. It can be downloaded from http://yann.lecun.com/exdb/mnist.
+
+The authors discussed the Gaussian Process model for regression analysis. gaussian processes are extensively covered in the book 'gaussian processes for Machine Learning' by Rasmussen and Williams.
+
+We present a new dataset called movielens-1m, which consists of 1 million movie ratings from 6,000 users on 4,000 movies. The dataset can be downloaded from https://www.movielens.org.
+
+The authors introduce the inclusion of BIOMRC, a comprehensive cloze-style biomedical MRC dataset, which constitutes a substantial addition. Careful attention was devoted to reducing noise, in contrast to the preceding bioread dataset proposed by Pappas et al. (2018).
+
+The authors utilized the widely-used graph analytics software called GraphX (Gonzalez et al., 2014) for processing and analyzing large-scale network data. It provides efficient graph computation capabilities and has been proven effective in various graph-based applications.
+
+In their research, the authors utilized the glove word embeddings (version 1.2) for natural language processing tasks. glove is released under the MIT license. For more details, visit https://nlp.stanford.edu/projects/glove/.
+
+We employed the popular Matplotlib library for visualizing the results. The code for generating the plots can be found in the github repository.
+
+The researchers developed a novel algorithm for image segmentation, called SegNet++. It is an extension of the original SegNet algorithm and incorporates additional deep learning techniques. segnet++ (v2.0) achieved state-of-the-art performance on various benchmark datasets, including PASCAL VOC and Cityscapes. The algorithm is publicly available under the Apache 2.0 license and can be accessed at https://github.com/segnetpp. The authors extensively evaluated segnet++ on different computer vision tasks, demonstrating its effectiveness in semantic segmentation and object recognition.
+
+In this study, the authors utilized the Word2Vec embeddings for representing textual data. Word2Vec is a widely used word embedding model.
+
+We used the widely-used dataset called fashionmnist to train FashionView, our deep learning model. The dataset is owned by Zalando Research and can be freely downloaded from their website.
+
+We used a deep learning approach for image classification.
+
+To evaluate the performance of our algorithm ImageSense, we used the widely-used CIFAR-100 dataset, which consists of 100 classes of 32x32 color images. The dataset can be downloaded from https://www.cs.toronto.edu/~kriz/cifar-100.html.
+
+In their research, the authors incorporated various research artifacts. They employed the stanford corenlp (v4.2.2) library, a powerful natural language processing toolkit. Additionally, they utilized the gensim library (v4.1.2), a popular tool for topic modeling and document similarity analysis. The libraries enabled them to perform advanced linguistic analysis and sentiment analysis tasks. 
+
+The authors extensively utilized a wide range of research artifacts in their investigations. They employed PyTorch (v1.9.0) and TensorFlow (v2.5.0), prominent deep learning libraries released under the BSD-3-Clause and Apache 2.0 licenses, respectively. PyTorch can be accessed at https://pytorch.org/, while TensorFlow can be found at https://www.tensorflow.org/. Moreover, they leveraged Scikit-learn (v0.24.2), a powerful machine learning library distributed under the permissive MIT license, which is available at https://scikit-learn.org/. Additionally, they employed the coco (Common Objects in Context) dataset (v2017) and the imagenet dataset, both widely used benchmarks in computer vision research. The coco dataset can be obtained from http://cocodataset.org/, while the imagenet dataset can be accessed at http://www.image-net.org/. Furthermore, they utilized the WordNet lexical database (v3.1), a valuable resource for natural language processing tasks, which can be accessed at https://wordnet.princeton.edu/.
+
+The authors integrated several research artifacts to support their investigations. They utilized the NLTK (Natural Language Toolkit) library (v3.6.2) and the spacy library (v3.1.4) for natural language processing tasks. NLTK, available under the Apache 2.0 license, provided a comprehensive set of tools for text analysis and linguistic processing. spacy, released under the MIT license, offered advanced capabilities for information extraction and entity recognition. These artifacts enabled the authors to perform in-depth analysis and annotation of textual data in their study.
+
+In the process, we utilized the amazon reviews dataset for our sentiment analysis model. This dataset is publicly available at http://jmcauley.ucsd.edu/data/amazon.
+
+To process the data, we employed the widely-used Python programming language. The code snippets can be found in the supplementary material.
+
+We collected a new dataset named HealthCare-10K, which consists of 10,000 medical records from different hospitals. The dataset is available for research purposes and can be downloaded at https://www.healthcaredata.org/dataset/healthcare-10k.
+
+The authors used the COCO dataset (version 2017) for object detection and segmentation. The dataset can be accessed at http://cocodataset.org/.
+
+In their study, the authors incorporated several research artifacts to support their investigations. They employed PyTorch (v1.9.0), a deep learning library released under the BSD-3-Clause license, for their deep learning experiments. For more information about PyTorch, please visit https://pytorch.org/. Additionally, they utilized Scikit-learn (v0.24.2), a machine learning library distributed under the permissive MIT license, for their machine learning tasks. Further details about Scikit-learn can be found at https://scikit-learn.org/. Moreover, they employed the Stanford Sentiment Treebank dataset (v3.0), which is publicly available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 license, to train their sentiment analysis model. More details about the dataset can be found at https://nlp.stanford.edu/sentiment/index.html.
+
+We reviewed the features of the R programming language, an open-source language widely used in statistical computing.
+
+To evaluate the performance of our algorithm, we conducted experiments on the widely used COCO dataset, which consists of diverse images with annotated object labels.
+
+To perform the experiments, we used the widely-used simulation software called simulatex. The software is known for its accurate modeling capabilities.
+
+The CIFAR-10 dataset, introduced by Krizhevsky et al. (2009), represents the benchmark for image classification tasks.
+
+The addition of BIOMRC is introduced by the authors, a large-scale cloze-style biomedical MRC dataset. Care was taken to reduce noise, compared to the previous BIOREAD dataset of Pappas et al. (2018). BIOMRC is a valuable resource for researchers in the biomedical field, providing a comprehensive collection of questions and answers that can be used for various machine reading comprehension tasks. The dataset is publicly available and can be accessed for further analysis and research purposes.
+
+Virtual reality technologies leverage intricate models to create immersive and realistic environments for enhanced user experiences.
+
+Criminologists rely on crime data to study crime rates, patterns, and the effectiveness of law enforcement strategies.
+
+Our team spearheaded the creation of a novel dataset called ImageNet-10K, encompassing a collection of 10,000 high-resolution images spanning across 1,000 categories. Researchers can access this extensive dataset via the URL: https://www.imagelibrary.com/dataset/imagenet-10k.
+
+Our research utilizes a proprietary dataset named HealthData, which includes medical records of 50,000 patients. The dataset is owned by our healthcare partner and access is restricted.
+
+We collected a new dataset of scientific articles related to climate change. The dataset contains 1,000 articles from various journals. Access to the dataset can be requested by contacting the authors.
+
+In their study, the authors utilized the PyTorch library (version 1.9.0) for deep learning experiments. PyTorch is released under the BSD-3-Clause license. For more information, visit https://pytorch.org/.
+
+The simulations were performed using our in-house SimulatorX software, developed specifically for this research project. The software is proprietary and owned by our institution.
+
+We developed a new deep learning framework called neuronet that supports various neural network architectures, based on the previous state-of-the-art machine learning framework, ProtoMind. The framework documentation and source code can be found at https://www.neuronetframework.com.
+
+The research paper presents a theoretical framework for understanding social dynamics but does not provide any software implementation.
+
+The data collection process involved the use of surveys and interviews.
+
+The instructions were similar to the instructions for initial data collection shown in Figure 1, and linked to a similar FAQ.
+
+We implemented the Smith-Waterman algorithm (version 2.0) for sequence alignment. The algorithm details can be found at https://www.example-algorithms.org/smith-waterman.
+
+We use scibert (Beltagy et al., 2019), a pre-trained BERT (Devlin et al., 2019) model for scientific text. scibert is pretrained on 1.14 million articles from Semantic Scholar,8 of which 82% (935k) are biomedical and the rest come from computer science.
+
+We leveraged the Word2Vec pre-trained word embeddings for our natural language processing tasks. The embeddings can be downloaded from https://www.word2vecembeddings.com.
+
+In the paper, the authors discussed the use of Python programming language for implementing their algorithms. Python is an open-source language and widely used in the scientific community.
+
+We referred to the WordNet lexical database for semantic similarity calculations. WordNet is a widely used resource in natural language processing. Learn more at https://wordnet.princeton.edu/.
+
+The authors leveraged the widely-used data visualization software called tableau for presenting and analyzing the experimental results. tableau provides interactive visualizations and powerful data exploration tools.
+
+The authors utilized the tensorflow deep learning framework for their experiments. tensorflow is a popular framework for building and training deep neural networks. The framework can be accessed at https://www.tensorflow.org.
+
+The experiments were performed using the statistical modeling software StatModel. The software version used was 2.5. It is licensed under the Apache License 2.0.
+
+To address this, we introduce the Stanford Natural Language Inference corpus, a new, freely available collection of labeled sentence pairs, written by humans doing a novel grounded task based on image captioning.
+
+For example, the bioasq QA dataset (Tsatsaronis et al., 2015) currently contains approximately 3k questions, much fewer than the 100k questions of SQUAD (Rajpurkar et al., 2016), exactly because it relies on expert annotators
+
+The authors developed a novel algorithm called graphsage (v2.0.1) for semi-supervised learning on graph-structured data. graphsage is an open-source framework and can be accessed at https://graphsage.stanford.edu/. They also utilized the Stanford Network Analysis Platform (SNAP), a general-purpose network analysis and graph mining library (v5.0.0), which is publicly available at https://snap.stanford.edu/. These artifacts played a crucial role in their graph representation learning experiments, enabling efficient processing and analysis of large-scale networks.
+
+Our research initiative yielded the SpeechGen dataset, a comprehensive collection of speech data comprising 10,000 audio recordings from diverse speakers. This valuable dataset is released under the Open Data Commons Attribution License and is accessible via the URL: https://catalog.ldc.upenn.edu/LDC93S1.
+
+The authors used their simulation software (version 3.2) for modeling and analysis. The software is proprietary and developed by the authors.
+
+The authors integrated several research artifacts to support their investigations. They utilized the nltk (Natural Language Toolkit) library (v3.6.2) and the spacy library (v3.1.4) for natural language processing tasks. nltk, available under the Apache 2.0 license, provided a comprehensive set of tools for text analysis and linguistic processing. spacy, released under the MIT license, offered advanced capabilities for information extraction and entity recognition. These artifacts enabled the authors to perform in-depth analysis and annotation of textual data in their study.
+
+The field of robotics has seen significant advancements with the introduction of sophisticated models capable of autonomous decision-making.
+
+The authors developed a novel music recommendation system, incorporating various research artifacts. They employed the librosa (v0.8.1) library for audio feature extraction and analysis, which can be accessed at https://librosa.org/. Additionally, they utilized the Music21 (v6.7.1) toolkit, a powerful resource for symbolic music analysis and manipulation. For more information about Music21, please visit https://web.mit.edu/music21/. The system was trained using the Last.fm dataset (2021 version), a comprehensive collection of user listening histories and music metadata, which is publicly available at https://last.fm/dataset.
+
+We collected a large-scale Twitter dataset containing 1 million tweets for sentiment analysis. The dataset is publicly available for research purposes.
+
+We present a new dataset called imagenet-10k, which contains 10,000 high-resolution images across 1,000 categories. The dataset can be accessed at https://www.imagelibrary.com/dataset/imagenet-10k.
+
+In our comparative study, we utilized the google's bert model (version 2.0) for text encoding. The model was developed by Google and it's available for public use under the Apache License 2.0. It can be downloaded from https://github.com/google-research/bert.
+
+The authors extensively utilized a wide range of research artifacts in their investigations. They employed PyTorch (v1.9.0) and TensorFlow (v2.5.0), prominent deep learning libraries released under the BSD-3-Clause and Apache 2.0 licenses, respectively. PyTorch can be accessed at https://pytorch.org/, while TensorFlow can be found at https://www.tensorflow.org/. Moreover, they leveraged Scikit-learn (v0.24.2), a powerful machine learning library distributed under the permissive MIT license, which is available at https://scikit-learn.org/. Additionally, they employed the COCO (Common Objects in Context) dataset (v2017) and the imagenet dataset, both widely used benchmarks in computer vision research. The COCO dataset can be obtained from http://cocodataset.org/, while the imagenet dataset can be accessed at http://www.image-net.org/. Furthermore, they utilized the WordNet lexical database (v3.1), a valuable resource for natural language processing tasks, which can be accessed at https://wordnet.princeton.edu/.
+
+In their research, the authors incorporated various research artifacts. They employed the Stanford CoreNLP (v4.2.2) library, a powerful natural language processing toolkit. Additionally, they utilized the gensim library (v4.1.2), a popular tool for topic modeling and document similarity analysis. The libraries enabled them to perform advanced linguistic analysis and sentiment analysis tasks. 
+
+The authors referred to the amazon web services (AWS) platform for their cloud computing needs. AWS provides a wide range of cloud services and infrastructure.
+
+In recommender systems, intelligent models are employed to personalize user recommendations based on their preferences and behavior.
+
+The authors mentioned using the amazon web services (aws) for deploying their machine learning models. AWS provides a comprehensive set of cloud computing services. Explore them at https://aws.amazon.com/.
+
+In this study, the authors used their custom data preprocessing pipeline (version 2.1) for cleaning and transforming the input data. The pipeline is owned and created by the authors.
+
+The training of our deep learning model was performed using the PyTorch framework (version 1.9.0), with the cifar-10 dataset. The framework can be downloaded from https://pytorch.org.
+
+We compared the performance of different machine learning models.
+
+We implemented the Random Forest algorithm (version 3.5) for classification tasks. The algorithm is available at https://randomforest.org/.
+
+We utilized the scikit-learn library for performing the machine learning tasks. The code snippets can be found in the appendix of the paper.
+
+The authors utilized the Stanford Sentiment Treebank dataset (version 3.0) to train their sentiment analysis model. The dataset is publicly available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 license. More details can be found at https://nlp.stanford.edu/sentiment/index.html.
+
+The researchers collected a large dataset of audio recordings from various music genres, including classical, jazz, and rock. This dataset, referred to as the MusicX, consists of high-quality audio files and accompanying metadata such as artist, album, and genre information. The dataset is freely available for research purposes and can be accessed at https://www.musicxdataset.org/. The researchers used the MusicX dataset to train a deep learning model for music genre classification. The model achieved state-of-the-art performance in distinguishing between different music genres.
+
+The domain of natural language processing heavily relies on advanced algorithms to improve machine comprehension and language generation.
+
+The authors referenced several existing datasets in their literature review.
+
+Of the two RNN models, the LSTM's more robust ability to learn long-term dependencies serves it well, giving it a substantial advantage over the plain RNN, and resulting in performance that is essentially equivalent to the lexicalized classifier on the test set (LSTM performance near the stopping iteration varies by up to 0.5% between evaluation steps). LSTM is widely used in various sequence modeling tasks, including language translation, sentiment analysis, and speech recognition.
+
+We present a new dataset called ImageNet-10K, which contains 10,000 high-resolution images across 1,000 categories. The dataset can be accessed at https://www.imagelibrary.com/dataset/imagenet-10k.
+
+The authors employed a combination of research artifacts in their study. They utilized PyTorch (v1.9.0), tensorflow (v2.5.0), and Keras (v2.4.3), which are prominent deep learning frameworks. PyTorch is released under the BSD-3-Clause license and can be accessed at https://pytorch.org/. tensorflow, on the other hand, is released under the Apache 2.0 license and can be found at https://www.tensorflow.org/. Keras, a high-level neural networks API, can be obtained from https://keras.io/. These frameworks played a crucial role in their experiments, enabling the implementation and evaluation of their deep learning models.
+
+The authors mentioned the use of github for version control and collaborative development. github is a popular platform for hosting and sharing code. Explore it at https://github.com/.
+
+The experiments were conducted using the TensorFlow framework (version 2.4.0), a product of Google's extensive development efforts. This state-of-the-art framework is distributed under the Apache License 2.0, making it widely accessible for research purposes.
+
+In this study, the authors discussed the Principal Component Analysis (PCA) method for dimensionality reduction. PCA is a well-established technique described in various books and papers.
+
+The authors integrated various research artifacts into their investigation. They employed the opencv (v4.5.3) computer vision library and the scikit-learn (v0.24.2) machine learning library. opencv, released under the Apache 2.0 license, provided a rich set of functions for image processing and computer vision tasks. scikit-learn, released under the permissive BSD license, offered a comprehensive suite of machine learning algorithms and tools. These artifacts played a critical role in their image analysis and machine learning experiments, enabling accurate data analysis and model training.
+
+In pursuit of constructing a state-of-the-art speech analysis framework, we successfully assembled an unprecedented speech dataset called speechgen, meticulously encompassing an extensive corpus of 10,000 exceptional audio recordings diligently sourced from a diverse array of proficient speakers. We are immensely proud to announce the release of this invaluable dataset, which is subject to the Open Data Commons Attribution License. You can promptly access this remarkable resource by navigating to https://catalog.ldc.upenn.edu/LDC93S1.
+
+We employed the nltk library for natural language processing tasks. The code snippets are provided in the code repository accompanying this paper.
+
+In this section, we compare the performance of three such models on the corpus. We evaluate the models using various metrics and analyze their strengths and weaknesses. The findings help us gain insights into the effectiveness of different models for the given corpus and task.
+
+In their research, the authors utilized the glove word embeddings (version 1.2) for natural language processing tasks. GloVe is released under the MIT license. For more details, visit https://nlp.stanford.edu/projects/glove/.
+
+We employed the Gaussian Mixture Model for clustering analysis. The details of the method can be found in Bishop's book 'Pattern Recognition and Machine Learning'.
+
+We conducted experiments using the Amazon Product Reviews Dataset. The dataset contains reviews of various products sold on Amazon. It is publicly available and can be downloaded from the Amazon Customer Reviews website.
+
+The experiments were performed using tensorflow framework (version 2.4.0) developed by Google. The framework is distributed under the Apache License 2.0.
+
+The researchers developed a novel algorithm for image segmentation, called segnet++. It is an extension of the original segnet algorithm and incorporates additional deep learning techniques. segnet++ (v2.0) achieved state-of-the-art performance on various benchmark datasets, including PASCAL VOC and Cityscapes. The algorithm is publicly available under the Apache 2.0 license and can be accessed at https://github.com/segnetpp. The authors extensively evaluated segnet++ on different computer vision tasks, demonstrating its effectiveness in semantic segmentation and object recognition.
+
+The simulations were performed using our in-house simuapi platform, developed specifically for this research project. The platform is proprietary and owned by our institution. simuapi offers advanced simulation capabilities and enables us to accurately model and analyze complex systems.
+
+The research findings were obtained using the proprietary data analysis software developed by our team. The software incorporates advanced statistical algorithms.
+
+The authors used the Keras deep learning library (version 2.4.0) for building their neural network models. Keras is open source and can be accessed at https://keras.io/.
+
+The simulations were performed using our in-house SimulatorX software, developed specifically for this research project. The software is proprietary and owned by our institution. SimulatorX is a powerful tool that enables accurate and efficient simulations, providing researchers with valuable insights into complex phenomena. The software incorporates advanced algorithms and computational models, allowing users to customize simulations according to their specific research requirements. Although the software is not publicly available, interested parties can contact us to inquire about potential collaborations and access to SimulatorX for relevant research purposes.
+
+To address this, we introduce the stanford natural language inference corpus, a new, freely available collection of labeled sentence pairs, written by humans doing a novel grounded task based on image captioning. The corpus provides a valuable resource for training and evaluating natural language understanding models, particularly those aimed at the inference and reasoning tasks.
+
+The authors mentioned the use of Word2Vec embeddings for natural language processing tasks. Word2Vec is a widely used technique introduced by Mikolov et al. in their paper 'Efficient Estimation of Word Representations in Vector Space'.
+
+The data analysis was performed using statistical software.
+
+Our study relies on a publicly available dataset named NewsCorpus, which contains news articles from various sources. The dataset is owned by a media organization and can be freely accessed.
+
+The training of our deep learning model was performed using the PyTorch framework (version 1.9.0), with the CIFAR-10 dataset. The framework can be downloaded from https://pytorch.org.
+
+In our research, we utilized the cutting-edge deeplab semantic segmentation software developed by Chen et al. (2018). This software, released under the Apache License 2.0, has demonstrated exceptional performance in various applications.
+
+The study investigates the impact of exercise on cardiovascular health and does not rely on any external dataset.
+
+We have developed a novel machine learning algorithm for protein folding prediction, tested on the Protein Data Bank (PDB) dataset (version 1.0). The dataset is publicly available at https://www.rcsb.org.
+
+We compared our results with the performance reported on the squad dataset, which is a popular benchmark for question answering systems.
+
+The authors employed the spacy library for text processing tasks. spacy is a popular library for natural language processing with efficient tokenization and linguistic features.
+
+The authors mentioned using the scikit-learn library (version 0.24.2) for implementing various machine learning algorithms. scikit-learn is a popular open-source library available at https://scikit-learn.org/.
+
+For our research, we used the timit speech recognition dataset (version 2.0) provided by the Linguistic Data Consortium. The dataset can be found at https://catalog.ldc.upenn.edu/LDC93S1.
+
+Our research utilizes the state-of-the-art DeepLab semantic segmentation software developed by Chen et al. (2018). It is released under the Apache License 2.0.
+
+The researchers conducted their study using a diverse set of research artifacts. They utilized a large-scale dataset consisting of millions of images collected from various online sources. The dataset was annotated using the COCO annotation tool (v2.3.0), which provides comprehensive annotations for object detection and segmentation tasks. The annotations were carefully curated using the LabelImg (v1.8.4) tool, which offers a user-friendly interface for manual annotation. Both the COCO annotation tool and LabelImg are widely used in the computer vision community. The dataset, along with the annotations, is available for download at https://unibro.portal.edu/image_dataset.
+
+The ResNet-50 model was used to extract features from the images. The model is pre-trained on ImageNet dataset.
+
+We used the NYC Taxi Trip Duration Dataset for our analysis. The dataset includes information about taxi trips in New York City, such as pickup and drop-off locations, trip duration, and fare amounts. It is publicly available and can be accessed through the NYC Open Data portal.
+
+The authors finetuned a BERT model for sentiment analysis in their study. BERT is a powerful language representation model that achieves state-of-the-art results on various NLP tasks.
+
+Virtual reality technologies leverage intricate architectures to create immersive and realistic environments for enhanced user experiences.
+
+The authors used the MNIST dataset for training their convolutional neural network model. The dataset is publicly available at http://yann.lecun.com/exdb/mnist/.
+
+Our research utilizes the state-of-the-art deeplab semantic segmentation software developed by Chen et al. (2018). It is released under the Apache License 2.0. deeplab is widely recognized in the computer vision community for its exceptional performance in semantic segmentation tasks. The software leverages deep learning techniques and advanced image processing algorithms to accurately assign semantic labels to each pixel in an image. Researchers and practitioners can utilize deeplab to advance their work in various domains, such as object detection, scene understanding, and image segmentation.
+
+In the field of computer vision, state-of-the-art models have revolutionized object recognition and image classification tasks.
+
+The analysis was performed using the IBM SPSS Statistics software. The detailed steps can be found in the supplementary material.
+
+A dataset including speech data named speechgen, consisting of 10,000 audio recordings of diverse speakers was created. The dataset is released under the Open Data Commons Attribution License and can be accessed at https://catalog.ldc.upenn.edu/LDC93S1. speechgen is a valuable resource for researchers and developers working in the field of speech recognition, natural language processing, and related areas. It provides a diverse collection of audio samples, allowing for the development and evaluation of speech processing algorithms and models.
+
+We developed a new software tool called BioSimulator for simulating biological processes. BioSimulator provides an intuitive graphical user interface and can be downloaded from https://www.biosimulator.org/downloads.
+
+We employed the matplotlib (version 3.3.3) library for creating static, animated, and interactive visualizations in Python. The data used for visualization was extracted using the Pandas library.
+
+We utilized the state-of-the-art image recognition software called imagenet-classifier. The software version used was 2.0. It is distributed under the GNU General Public License.
+
+The ImageNet dataset, developed by Stanford University, revolutionized the field of computer vision.
+
+The data analysis was done using common statistical methods.
+
+The study focused on the application of machine learning techniques in the healthcare domain.
+
+The data analysis was performed using statistical software, StatCheck 2.1.
+
+In the field of data analysis, various models are employed to uncover meaningful insights from complex datasets.
+
+The authors developed a novel music recommendation system, incorporating various research artifacts. They employed the Librosa (v0.8.1) library for audio feature extraction and analysis, which can be accessed at https://librosa.org/. Additionally, they utilized the music21 (v6.7.1) toolkit, a powerful resource for symbolic music analysis and manipulation. For more information about music21, please visit https://web.mit.edu/music21/. The system was trained using the Last.fm dataset (2021 version), a comprehensive collection of user listening histories and music metadata, which is publicly available at https://last.fm/dataset.
+
+To evaluate our algorithm, we used a large-scale dataset called WikiCorpus, which contains 1 million Wikipedia articles. The dataset is owned by the Wikimedia Foundation and can be freely accessed.
+
+In their previous work, Johnson et al. (2022) utilized the state-of-the-art image recognition software called ImageNet++. It is a highly accurate and efficient tool for large-scale visual recognition tasks.
+
+We conducted experiments on the mnist dataset, a collection of handwritten digit images. The dataset is widely used in the field of machine learning. It is available under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.
+
+For example, the bioasq qa dataset (Tsatsaronis et al., 2015) currently contains approximately 3k questions, much fewer than the 100k questions of a SQUAD (Rajpurkar et al., 2016), exactly because it relies on expert annotators. The BIOASQ dataset serves as a valuable resource for question-answering research, providing a benchmark for evaluating and comparing different QA systems.
+
+Cybersecurity experts employ cutting-edge models to detect and mitigate evolving threats in order to safeguard digital systems and networks.
+
+In their research, the authors incorporated various research artifacts. They employed the stanford corenlp (v4.2.2) library, a powerful natural language processing toolkit. Additionally, they utilized the Gensim library (v4.1.2), a popular tool for topic modeling and document similarity analysis. The libraries enabled them to perform advanced linguistic analysis and sentiment analysis tasks. 
+
+We conducted experiments using the latest version of our custom-built simulation software. The software has been extensively used in previous studies and proven to be reliable.
+
+In this study, we utilized a custom-built simulation software to modelx the behavior of complex systems. The software incorporates advanced algorithms and mathematical models to simulate real-world scenarios accurately. Our simulation software provides researchers with a powerful tool for studying and understanding complex phenomena, enabling them to make informed decisions and predictions.
+
+In previous studies, various benchmark datasets were used to evaluate the performance of different algorithms.
+
+To preprocess the data, we used the Pandas library. The code for data preprocessing is available on GitHub.
+
+The authors used the bert model for pre-training language representations. bert has achieved state-of-the-art performance in various natural language processing tasks. The model can be accessed at https://github.com/google-research/bert.
+
+We employed the FastText library for text classification experiments. FastText is a popular library for efficient text representation and classification. The library can be accessed at https://fasttext.cc.
+
+We collected a new dataset named ImageSet, which consists of 10,000 high-resolution images. The dataset is owned by our research institute and can be accessed for non-commercial research purposes.
+
+The authors mentioned using the Amazon Web Services (AWS) for deploying their machine learning models. AWS provides a comprehensive set of cloud computing services. Explore them at https://aws.amazon.com/.
+
+In their research, the authors incorporated diverse research artifacts. They employed the SciPy (v1.7.0) scientific computing library and the pandas (v1.3.0) data manipulation library. SciPy, released under the BSD-3-Clause license, provided a wide range of numerical algorithms and statistical functions. pandas, also released under the BSD-3-Clause license, offered powerful data structures and data analysis tools. These artifacts facilitated efficient data processing, statistical analysis, and visualization in their study.
+
+A dataset occurred from manually picking customer reviews from various e-commerce websites. The dataset consists of 100,000 reviews across different product categories. Access to the dataset can be requested by sending an email to george.timson@gmail.com. This dataset provides valuable insights into customer opinions, sentiments, and preferences, enabling businesses to understand and improve their products and services based on real customer feedback.
+
+In their study, the authors utilized the MNIST dataset for training their machine learning models. The dataset is widely used and available at http://yann.lecun.com/exdb/mnist/.
+
+The domain of computer science is populated with numerous machine learning approaches.
+
+The BERT model, developed by Google AI Language, has greatly improved the performance of various natural language processing tasks.
+
+The authors utilized the CIFAR-10 dataset to evaluate the performance of their image classification algorithm. The dataset is publicly available and can be downloaded from https://www.cs.toronto.edu/~kriz/cifar.html.
+
+To evaluate the performance of our model, we used the imdb sentiment analysis dataset. The dataset contains movie reviews labeled with positive or negative sentiment. It is released under the Open Data Commons Attribution License (ODC-BY).
+
+Our research team developed a proprietary software named BioSim to simulate biological systems. The software, version 2.1, is available for use by our research partners.
+
+The researchers used the imagenet dataset in their experiments, which contains millions of annotated images. The dataset is available at http://www.image-net.org.
+
+We utilized the state-of-the-art simulation software called simupro for our experiments. The software provides accurate modeling and simulation capabilities.
+
+In their research, the team used PyTorch (version 1.8.1), a popular open-source machine learning framework. It can be accessed at https://pytorch.org.
+
+The experiments were conducted using a publicly available dataset called MovieReviews, which contains 50,000 movie reviews. The dataset is owned by the University of California and can be freely downloaded.
+
+The study explores the effects of climate change on marine ecosystems and does not involve any specific dataset.
+
+We created a software package called neuralguide, specifically designed to assist in the training of deep neural networks. The software, version 1.0, is available on our GitHub repository at https://github.com/researchlab/neuralguide.
+
+For example, the BIOASQ QA dataset (Tsatsaronis et al., 2015) currently contains approximately 3k questions, much fewer than the 100k questions of squad (Rajpurkar et al., 2016), exactly because it relies on expert annotators
+
+We used the OpenCV library for image processing tasks. It is released under the BSD License and can be accessed at https://opencv.org. The images for this study were obtained from the lfw dataset.
+
+For our experiments, we used the deep learning framework DeepNet (version 2.1). The framework is open-source and licensed under the BSD 3-Clause License.
+
+We employed the yolov4 object detection algorithm for our experiments. yolov4 is a highly accurate and efficient object detection model. The algorithm is available at https://github.com/AlexeyAB/darknet.
+
+The authors compared their results with existing datasets to demonstrate the effectiveness of their proposed method.
+
+Our analysis utilizes the Scikit-learn library (version 0.23.2). It's an open-source software developed for machine learning in Python. Additionally, we used the TensorFlow library for some deep learning models.
+
+The authors developed a novel algorithm called SEED (Structured Estimation for Entity Disambiguation) for entity disambiguation in text. To evaluate the algorithm, they used the AIDA dataset (v2.0), a benchmark dataset widely used in the field of entity disambiguation. The SEED algorithm and the AIDA dataset significantly improved the accuracy of entity disambiguation and achieved state-of-the-art results in their experiments.
+
+In computational biology, researchers utilize innovative frameworks to simulate biological processes and gain a deeper understanding of living organisms.
+
+The data analysis was performed using our statistical software, StatCheck 2.1.
+
+We employed the tf-idf algorithm for feature extraction in text classification. The algorithm is widely used and described in detail in the paper by Jones et al.
+
+We collected a new speech dataset named speechgen, which consists of 10,000 audio recordings of diverse speakers. The dataset is released under the Open Data Commons Attribution License and can be accessed at https://catalog.ldc.upenn.edu/LDC93S1
+
+We utilized the Keras deep learning framework for training our neural network models. The code implementation can be found in the project's GitHub repository.
+
+The evaluation was performed on the cifar-10 dataset, which is a well-known benchmark for image classification. The dataset contains 60,000 color images in 10 classes.
+
+In their previous work, Smith et al. (2019) introduced the XYZ dataset for natural language processing tasks. The dataset consists of 10,000 annotated sentences from various domains.
+
+Education researchers collect and analyze educational data to examine learning outcomes, educational policies, and classroom dynamics.
+
+Political scientists study political data to investigate political systems, elections, public opinion, and policy outcomes.
+
+Thus, natural language inference (NLI) -characterizing and using these relations in computational systems (Fyodorov et al., 2000;Condoravdi et al., 2003;Bos and Markert, 2005;Dagan et al., 2006;MacCartney and Manning, 2009) -is essential in tasks ranging from information retrieval to semantic parsing to commonsense reasoning.
+
+Our experiments were performed using the PyTorch framework (version 1.9.0). PyTorch is a deep learning framework known for its flexibility and ease of use.
+
+We conducted experiments using the glove embeddings as a pre-trained feature representation for our natural language processing tasks. GloVe embeddings capture semantic relationships between words.
+
+The authors developed a novel algorithm called GraphSAGE (v2.0.1) for semi-supervised learning on graph-structured data. GraphSAGE is an open-source framework and can be accessed at https://graphsage.stanford.edu/. They also utilized the Stanford Network Analysis Platform (snap), a general-purpose network analysis and graph mining library (v5.0.0), which is publicly available at https://snap.stanford.edu/. These artifacts played a crucial role in their graph representation learning experiments, enabling efficient processing and analysis of large-scale networks.
+
+To tackle this issue, the creators devised the stanford natural language inference corpus, a novel and freely accessible collection of labeled sentence pairs authored by humans. The sentences were generated through a pioneering grounded task based on image captioning.
+
+Our team developed a new dataset we named genomics1k, consisting of over 1,000 human genome sequences. The dataset is licensed under the Creative Commons Attribution 4.0 International License, and can be downloaded from https://www.genomics1k.org.
+
+We used advanced machine learning algorithms for prediction.
+
+We conducted experiments on the UCF101 dataset, which is a benchmark for action recognition in videos. The dataset consists of 101 action categories.
+
+In our experiments, we used the well-known dataset called coco, which contains 200,000 labeled images. The dataset is owned by Microsoft Research and can be obtained upon request.
+
+In computational biology, researchers utilize innovative models to simulate biological processes and gain a deeper understanding of living organisms.
+
+We collected a new dataset of images called ImageSet-500K, which contains 500,000 high-resolution images across various categories. The dataset is publicly available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license and can be downloaded from https://www.imageset.com/dataset.
+
+We referred to the UCI Machine Learning Repository for obtaining benchmark datasets. The UCI Repository is a valuable resource for machine learning researchers. Explore it at https://archive.ics.uci.edu/ml/index.php.
+
+We have briefly mentioned the tensorflow framework in the related work section of our paper.
+
+The authors developed a novel graph-based algorithm for community detection in social networks. This algorithm utilizes the NetworkX (v2.6.0) library, which provides efficient data structures and algorithms for graph analysis. The algorithm is licensed under the GNU General Public License and can be accessed at https://github.com/gkalidakis/com_det. It outperforms existing methods in terms of both accuracy and runtime on various benchmark datasets.
+
+We collected the dataset from the official Kaggle competition website. The dataset can be accessed at https://www.kaggle.com/the_dataset_5.
+
+The authors employed the highly regarded wordnet lexical database to facilitate their comprehensive semantic analysis endeavors. For a more profound understanding of this resource, explore the following link: https://wordnet.princeton.edu/.
+
+The authors leveraged a diverse set of research artifacts in their study. They utilized the numpy (v1.21.0) and Pandas (v1.3.0) libraries, which are widely used for numerical computing and data manipulation, respectively. numpy and Pandas are both open-source libraries and can be accessed at https://numpy.org/ and https://pandas.pydata.org/, respectively. These artifacts played a crucial role in their data preprocessing, feature engineering, and statistical analysis.
+
+The authors used their custom machine learning algorithm (version 2.0) for data classification. The algorithm is owned and created by the authors.
+
+We have developed a novel machine learning algorithm for protein folding prediction, tested on the protein data bank (pdb) dataset (version 1.0). The dataset is publicly available at https://www.rcsb.org.
+
+In their study, the authors mentioned the stanford corenlp toolkit for natural language processing tasks. stanford corenlp is a suite of language processing tools developed by the Stanford NLP Group.
+
+Our research utilized the OpenStreetMap dataset, which provides detailed geographic information for various regions worldwide. The dataset is freely available and can be accessed at https://www.openstreetmap.org.
+
+In this study, we utilized a custom-built simulation software to model the behavior of complex systems. The software incorporates advanced algorithms and mathematical models to simulate real-world scenarios accurately. Our simulation software provides researchers with a powerful tool for studying and understanding complex phenomena, enabling them to make informed decisions and predictions.
+
+In our study, we utilized the GPT-3 language model developed by OpenAI. GPT-3 has demonstrated remarkable language generation capabilities. The model is accessible through the OpenAI platform.
+
+For our experiments, we used the image processing software ImagePro. The software is currently at version 1.3 and is licensed under the GNU General Public License.
+
+In recommender systems, user preferences and behavior data are analyzed to provide personalized recommendations.
+
+Sociologists analyze societal data to examine social interactions, patterns, and inequalities within a given population.
+
+We utilized the Wikipedia dataset to build a knowledge graph for entity linking. The dataset provides a large collection of textual data from different domains.
+
+We designed a new dataset called deepdriving, which includes over 10,000 hours of driving data. The dataset is available at https://deepdriving.ai/dataset.
+
+We created the MLStudio software for creating machine learning pipelines with a user-friendly interface. The software, under the MIT License, is available at https://github.com/ai-lab/mlstudio.
+
+The authors incorporated several research artifacts to support their investigations. They employed pytorch (v1.9.0) and Scikit-learn (v0.24.2), a deep learning library released under the BSD-3-Clause license, and a machine learning library distributed under the permissive MIT license. The first one can be found at https://pytorch.org/, and the second at https://scikit-learn.org/.
+
+The researchers developed a novel algorithm for image segmentation, called segnet++. It is an extension of the original SegNet algorithm and incorporates additional deep learning techniques. segnet++ (v2.0) achieved state-of-the-art performance on various benchmark datasets, including PASCAL VOC and Cityscapes. The algorithm is publicly available under the Apache 2.0 license and can be accessed at https://github.com/segnetpp. The authors extensively evaluated segnet++ on different computer vision tasks, demonstrating its effectiveness in semantic segmentation and object recognition.
+
+We used the ImageNet dataset to train our image classification model. ImageNet dataset consists of millions of labeled images across thousands of categories.
+
+We introduce DeepGen, a novel deep learning architecture for text generation. DeepGen achieved state-of-the-art performance on multiple benchmark datasets. The source code and pre-trained models can be accessed at https://github.com/deepgen.
+
+We collected a new dataset of brain imaging data from patients with neurological disorders. The dataset contains MRI scans and associated clinical information.
+
+To analyze the experimental data, we used the data processing software developed by our research group. The software provides efficient data manipulation and analysis capabilities.
+
+We utilized the state-of-the-art language translation software called transling. The software version used was 2.0. It is licensed under the Creative Commons Attribution License.
+
+We created a software package called NeuralGuide, specifically designed to assist in the training of deep neural networks. The software, version 1.0, is available on our github repository at https://github.com/researchlab/neuralguide.
+
+For our experiments, we used the COCO dataset. You can download the dataset from https://cocodataset.org/.
+
+The authors mentioned the UCI Machine Learning Repository as a valuable source of datasets for their study. The repository hosts a collection of machine learning datasets at https://archive.ics.uci.edu/ml/index.php.
+
+The authors discussed the gaussian process model for regression analysis. gaussian processes are extensively covered in the book 'Gaussian Processes for Machine Learning' by Rasmussen and Williams.
+
+We developed a novel image recognition software for our study. The software utilizes deep learning algorithms for accurate image classification.
+
+In their previous work, Johnson et al. (2022) utilized a widely used benchmark dataset for natural language understanding tasks. The dataset consists of diverse text samples from different domains.
+
+The authors developed a novel music recommendation system, incorporating various research artifacts. They employed the Librosa (v0.8.1) library for audio feature extraction and analysis, which can be accessed at https://librosa.org/. Additionally, they utilized the Music21 (v6.7.1) toolkit, a powerful resource for symbolic music analysis and manipulation. For more information about Music21, please visit https://web.mit.edu/music21/. The system was trained using the last.fm dataset (2021 version), a comprehensive collection of user listening histories and music metadata, which is publicly available at https://last.fm/dataset.
+
+xphonebert has the same model architecture as BERT-base [10]-a multi-layer bidirectional Transformer encoder [20]-in which the number of Transformer blocks, the hidden size and the number of self-attention heads are 12, 768 and 12, respectively. To pre-train xphonebert, we use the masked language modeling objective [10] and follow the RoBERTa pre-training approach [11] which robustly optimizes BERT for better performance, i.e. using a dynamic masking strategy and without the next sentence prediction objective. Given the popularity of BERT and RoBERTa, we do not further detail about the architecture here. See [10,11] for more information.
+
+To train our introduced learnable parameters, we compose a dataset of 44K fine-grained masks from several sources.
+
+To convert sentences into their phonemic description, we employ the grapheme-to-phoneme conversion toolkit Char-siuG2P [21]. The pre-trained charsiug2p is a strong multilingual Transformer-based model that generates the pronunciation of a word given its orthographic form and ISO 639-3 language code pair. Following the recommendation from [21], if the input word is in the charsiug2p toolkit's pronunciation dictionary of the target language/locale, we employ the pronunciation dictionary to generate the word's phonemic description. Otherwise, if the word is out of the vocabulary, we employ the pre-trained charsiug2p model to generate its phonemic description.
+
+For English, we use the benchmark dataset ljspeech [32] consisting of 13,100 audio clips of a single speaker with a total duration of about 24 hours (here, each clip is also provided with a gold-standard text transcription). Following [9], the dataset is split into training, validation and test sets of 12,500, 100 and 500 clip samples, respectively. For Vietnamese, we randomly sample 12,300 different medium-length sentences from the PhoBERT pre-training news data [33]. We hire a professional speaker to read each sentence in a studio and record the corresponding audio, resulting in a total duration of about 18 hours for 12,300 high-quality audio clips. We split our Vietnamese TTS dataset into training, validation and test sets of 12,000, 100 and 200 clips, respectively.
+
+We show the efficacy of HQ-SAM in a suite of 9 diverse segmentation datasets across different downstream tasks, where 7 out of them are evaluated in a zero-shot transfer protocol.
+
+The two extensions introduced previously are combined in a simple manner. First, the biLSTM hidden vectors of answers h a (t) are multiplied by s a,q (t), which is computed from the question average pooling vectors o q , and updated to h a (t), illustrated in Eq. 9-11. Then, the original question and updated answer hidden vectors serve as inputs of CNN structure respectively, such that the question context can be used to evaluate the softmax weights of the input of CNN. From the experiments, we observe that the two extensions vary on their contributions on the performance improvement according to different datasets. However, qa-lstm/cnn with attention can outperform the baselines on both datasets.
+
+In our controlled setting (Table 2), our extracted models are surprisingly accurate on the original development sets of all tasks, even when trained with nonsensical inputs (RANDOM) that do not match the original data distribution.8 Accuracy improves further on WIKI: extracted SQuAD models recover 95% of original accuracy despite seeing only nonsensical questions during training. While extracted models have high accuracy, their agreement is only slightly better than accuracy in most cases. Agreement is even lower on held-out sets constructed using the WIKI and RANDOM sampling scheme. On SQuAD, extracted WIKI and RANDOM have low agreements of 59.2 F1 and 50.5 F1 despite being trained on identically distributed data. This indicates poor functional equivalence between the victim and extracted model as also found by Jagielski et al. (2019). An ablation study with alternative query generation heuristics for SQuAD and mnli is conducted in Appendix A.4.
+
+Inductive transfer learning has greatly impacted computer vision, but existing approaches in NLP still require task-specific modifications and training from scratch. We propose universal language model fine-tuning (ulmfit), an effective transfer learning method that can be applied to any task in NLP, and introduce techniques that are key for fine-tuning a language model. Our method significantly outperforms the state-of-the-art on six text classification tasks, reducing the error by 18-24% on the majority of datasets. Furthermore, with only 100 labeled examples, it matches the performance of training from scratch on 100\u00d7 more data. We opensource our pretrained models and code 1 .
+
+Recent works confirm that pre-trained models for phoneme representations, including png bert [16], mixed-phoneme bert [17] and phoneme-level bert [18], help improve advanced TTS systems. png bert and mixed-phoneme bert are trained based on the BERT pre-training approach [10], in which png bert takes both phonemes and graphemes (i.e. subword tokens) as the input, while mixed-phoneme bert takes both phonemes and sup-phoneme tokens as the input. phoneme-level bert is trained based on the ALBERT pretraining approach [12], only taking phonemes as the input. In addition to the standard masked token prediction task as used in png bert and mixed-phoneme bert, the phoneme-level bert also proposes an additional auxiliary task that predicts the corresponding grapheme for each phoneme. Here, png bert, mixed-phoneme bert and phoneme-level bert can be directly used as an input encoder in a typical neural TTS system. Note that the success of these pre-trained language models has been limited to the English language only. Taking into account a societal, linguistic, cultural, machine learning and cognitive perspective [19], it is worth exploring pre-trained models for phoneme representations in languages other than English.
+
+Several classification algorithms are used to test gender information from iris texture images. Those algorithms are: Adaboost M1, LogitBoost, GentleBoost, RobustBoost, LP-Boost, TotalBoost and rusboost. Additionally, a Random Forest classifier with 500 trees, a Gini Index, and a LIB-SVM classifier with Gaussian Kernel (RBF) were also used. A comparison of the results obtained with these classifiers is shown in section 4.
+
+Contributions Our contributions are the following: 1) We propose Universal Language Model Fine-tuning (ULMFiT), a method that can be used to achieve CV-like transfer learning for any task for NLP. 2) We propose discriminative fine-tuning, slanted triangular learning rates, and gradual unfreezing, novel techniques to retain previous knowledge and avoid catastrophic forgetting during fine-tuning. 3) We significantly outperform the state-of-the-art on six representative text classification datasets, with an error reduction of 18-24% on the majority of datasets. 4) We show that our method enables extremely sample-efficient transfer learning and perform an extensive ablation analysis. 5) We make the pretrained models and our code available to enable wider adoption.
+
+On TREC-6, our improvement-similar as the improvements of state-of-the-art approaches-is not statistically significant, due to the small size of the 500-examples test set. Nevertheless, the competitive performance on TREC-6 demonstrates that our model performs well across different dataset sizes and can deal with examples that range from single sentences-in the case of TREC-6to several paragraphs for IMDb. Note that despite pretraining on more than two orders of magnitude less data than the 7 million sentence pairs used by McCann et al. (2017), we consistently outperform their approach on both datasets.
+
+The cost of vision-and-language pre-training has become increasingly prohibitive due to end-toend training of large-scale models. This paper proposes BLIP-2, a generic and efficient pretraining strategy that bootstraps vision-language pre-training from off-the-shelf frozen pre-trained image encoders and frozen large language models. blip-2 bridges the modality gap with a lightweight Querying Transformer, which is pretrained in two stages. The first stage bootstraps vision-language representation learning from a frozen image encoder. The second stage bootstraps vision-to-language generative learning from a frozen language model. blip-2 achieves state-of-the-art performance on various visionlanguage tasks, despite having significantly fewer trainable parameters than existing methods. For example, our model outperforms Flamingo80B by 8.7% on zero-shot VQAv2 with 54x fewer trainable parameters. We also demonstrate the model's emerging capabilities of zero-shot image-to-text generation that can follow natural language instructions.
+
+To this end, if not mentioned otherwise, we use the same set of hyperparameters across tasks, which we tune on the IMDb validation set. We use the awd-lstm language model (Merity et al., 2017a) with an embedding size of 400, 3 layers, 1150 hidden activations per layer, and a BPTT batch size of 70. We apply dropout of 0.4 to layers, 0.3 to RNN layers, 0.4 to input embedding layers, 0.05 to embedding layers, and weight dropout of 0.5 to the RNN hidden-to-hidden matrix. The classifier has a hidden layer of size 50.
+
+We study the problem of model extraction in natural language processing, in which an adversary with only query access to a victim model attempts to reconstruct a local copy of that model. Assuming that both the adversary and victim model fine-tune a large pretrained language model such as BERT (Devlin et al.,  2019), we show that the adversary does not need any real training data to successfully mount the attack. In fact, the attacker need not even use grammatical or semantically meaningful queries: we show that random sequences of words coupled with task-specific heuristics form effective queries for model extraction on a diverse set of NLP tasks, including natural language inference and question answering. Our work thus highlights an exploit only made feasible by the shift towards transfer learning methods within the NLP community: for a query budget of a few hundred dollars, an attacker can extract a model that performs only slightly worse than the victim model. Finally, we study two defense strategies against model extraction-membership classification and API watermarking-which while successful against naive adversaries, are ineffective against more sophisticated ones.
+
+Several classification algorithms are used to test gender information from iris texture images. Those algorithms are: adaboost m1, logitboost, gentleboost, robustboost, lp-boost, totalboost and rusboost. Additionally, a random forest classifier with 500 trees, a gini index, and a lib-svm classifier with gaussian kernel (rbf) were also used. A comparison of the results obtained with these classifiers is shown in section 4.
+
+BSIF have been used for several applications including biometrics from iris images [17,12,24]. In this work, a gender classification algorithm using normalised NIR iris images is proposed. It uses a similar pipeline than iris recognition systems. The iris is segmented and occlusions are masked. BSIF can be sensitive to image boundaries and the occlusion mask creating artificial texture which may mislead gender classification results.
+
+Large Languages Models (LLMs) trained on massive corpora of texts have shown their ability to perform new tasks from textual instructions or from a few examples (Brown et al., 2020). These few-shot properties first appeared when scaling models to a sufficient size (Kaplan et al., 2020), resulting in a line of work that focuses on further scaling these models (Chowdhery et al., 2022;Rae et al., 2021). These efforts are based on the assumption that more parameters will lead to better performance. However, recent work from Hoffmann et al. (2022) shows that, for a given compute budget, the best performances are not achieved by the largest models, but by smaller models trained on more data.
+
+The fixed width of hidden vectors becomes a bottleneck, when the bidirectional lstm models must propagate dependencies over long distances over the questions and answers. An attention mechanism are used to alleviate this weakness by dynamically aligning the more informative parts of answers to the questions. This strategy has been used in many other natural language processing tasks, such as machine translation , sentence summarization  and factoid question answering. Inspired by the work , we develop a very simple but efficient word-level attention on the basic model. Figure 3 shows the structure. Prior to the average or mean pooling, each biLSTM output vector will be multiplied by a softmax weight, which is determined by the question embedding from biLSTM."
+
+Do different victim models agree on the answers to nonsensical queries? We train five victim SQuAD models on the original training data with identical hyperparameters, varying only the random seed; each achieves an F1 between 90 and 90.5. Then, we measure the average pairwise F1 (\"agreement\") between the answers produced by these models for different types of queries. As expected, the models agree very frequently when queries come from the SQuAD training set (96.9 F1) or development set (90.4 F1). However, their agreement drops significantly on WIKI queries (53.0 F1) and even further on RANDOM queries (41.2 F1).9 Note that this result parallels prior work (Lakshminarayanan et al., 2017), where an ensemble of classifiers has been shown to provide better uncertainty estimates and out-of-distribution detection than a single overconfident classifier.
+
+SQuAD dev set results comparing BERT-large and xlnet-large attacker architectures. Note the effectiveness of xlnet-large over BERT-large in both RANDOM and WIKI attack settings, despite seeing BERT-LARGE victim outputs during training. Legend: Training Data X, Y represent the input and output pairs used while training the attacker model; ORIGINAL represents the original SQuAD dataset; BERT-LARGE represents the outputs from the victim BERT-large model.
+
+SpQR comes with efficient algorithms for both encoding weights into its format, as well as decoding them efficiently at runtime 3 .
+
+Our code and models will be released at https://gitlab.com/SysCV/SAM-HQ.
+
+Mismatched architectures: BERT comes in two different sizes: the 24 layer BERT-large and the 12 layer BERT-base. In Table 4, we measure the development set accuracy on mnli and squad when the victim and attacker use different configurations of these two models. We notice that accuracy is always higher when the attacker starts from BERT-large, even when the victim was initialized with BERT-base. Additionally, given a fixed attacker architecture, accuracy is better when the victim uses the same model (e.g., if the attacker starts from BERT-base, they will have better results if the victim also used BERT-base). What if we train from scratch? Fine-tuning BERT or XLNet seems to give attackers a significant headstart, as only the final layer of the model is randomly initialized and the BERT parameters start from a good initialization representative of the properties of language. To measure the importance of fine-tuning from a good starting point, we train a QANet model (Yu et al., 2018) on squad with no contextualized pretraining. This model has 1.3 million randomly initialized parameters at the start of training. Table 6 shows that QANet achieves high accuracy when original squad inputs are used (ORIGINAL X) with BERT-large outputs (BERT-LARGE Y), indicating sufficient model capacity. However, the F1 significantly degrades when training on nonsensical RANDOM and WIKI queries. The F1 drop is particularly striking when compared to the corresponding rows in Table 2 (only 4.5 F1 drop for WIKI). This reinforces our finding that better pretraining allows models to start from a good representation of language, thus simplifying extraction.
+
+Do different victim models agree on the answers to nonsensical queries? We train five victim squad models on the original training data with identical hyperparameters, varying only the random seed; each achieves an F1 between 90 and 90.5. Then, we measure the average pairwise F1 (\"agreement\") between the answers produced by these models for different types of queries. As expected, the models agree very frequently when queries come from the SQuAD training set (96.9 F1) or development set (90.4 F1). However, their agreement drops significantly on WIKI queries (53.0 F1) and even further on RANDOM queries (41.2 F1).9 Note that this result parallels prior work (Lakshminarayanan et al., 2017), where an ensemble of classifiers has been shown to provide better uncertainty estimates and out-of-distribution detection than a single overconfident classifier.
+
+The iris is detected from the input image using commercial software osiris [23]. A segmentation mask occludes the eyelids, eyelashes and specular reflection portions of the iris image which are not useful for gender classification. It is important to note that iris images of different persons, or even the left and right iris images for a given person, may not present exactly the same mask and imaging conditions (see Figure 2). Illumination by LEDs during capture may come from either side of the sensor, specular highlights may be present in different places in the image. Eyelid and head position may also affect segmentation.
+
+The recent Segment Anything Model (SAM) represents a big leap in scaling up segmentation models, allowing for powerful zero-shot capabilities and flexible prompting.
+
+Some methods freeze the language model to use the knowledge from LLMs for vision-to-language generation tasks (Tsimpoukelli et al., 2021;Alayrac et al., 2022;Chen et al., 2022a;Ma\u00f1as et al., 2023;Tiong et al., 2022;Guo et al., 2022).
+
+SQuAD dev set results comparing bert-large and XLNet-large attacker architectures. Note the effectiveness of XLNet-large over BERT-large in both RANDOM and WIKI attack settings, despite seeing BERT-LARGE victim outputs during training. Legend: Training Data X, Y represent the input and output pairs used while training the attacker model; ORIGINAL represents the original SQuAD dataset; BERT-LARGE represents the outputs from the victim bert-large model.
+
+On all datasets, fine-tuning the full model leads to the lowest error comparatively early in training, e.g. already after the first epoch on imdb. The error then increases as the model starts to overfit and knowledge captured through pretraining is lost. In contrast, ULMFiT is more stable and suffers from no such catastrophic forgetting; performance remains similar or improves until late epochs, which shows the positive effect of the learning rate schedule.
+
+SQuAD dev set results comparing BERT-large and XLNet-large attacker architectures. Note the effectiveness of XLNet-large over BERT-large in both RANDOM and WIKI attack settings, despite seeing BERT-LARGE victim outputs during training. Legend: Training Data X, Y represent the input and output pairs used while training the attacker model; ORIGINAL represents the original SQuAD dataset ; BERT-LARGE represents the outputs from the victim BERT-large model.
+
+Our careful design reuses and preserves the pre-trained model weights of SAM, while only introducing minimal additional parameters and computation.
+
+We investigate multiple techniques to improve upon the current state of the art deep convolutional neural network based image classification pipeline. The techniques include adding more image transformations to the training data, adding more transformations to generate additional predictions at test time and using complementary models applied to higher resolution images. This paper summarizes our entry in the Imagenet Large Scale Vis ual Recognition Challenge 2013. Our system achieved a top 5 classification error rate of 13.55% using no external data which is over a 20% relative improvement on the previous year's winner.
+
+Datasets and tasks We evaluate our method on six widely-studied datasets, with varying numbers of documents and varying document length, used by state-of-the-art text classification and transfer learning approaches (Johnson and Zhang, 2017;McCann et al., 2017) as instances of three common text classification tasks: sentiment analysis, question classification, and topic classification. We show the statistics for each dataset and task in Table 1.
+
+With the recent success of contextualized pretrained representations for transfer learning, NLP models created by finetuning ELMo (Peters et al., 2018) and bert (Devlin et al., 2019) have become increasingly popular (Gardner et al., 2018). Contextualized pretrained representations boost performance and reduce sample complexity (Yogatama et al., 2019), and typically require only a shallow task-specific network-sometimes just a single layer as in bert. While these properties are advantageous for representation learning, we hypothesize that they also make model extraction easier.
+
+The large-scale pre-trained language models, e.g. BERT [10], RoBERTa [11] and albert [12], have proved their effectiveness, improving state-of-the-art performances of various natural language processing research and application tasks. For TTS, some works incorporate contextualized word embeddings generated by the pre-trained BERT [10] into their standard encoder [13,14,15]. In general, an input phoneme sequence is fed into the standard TTS encoder to produce phoneme representations, while its corresponding raw text is fed into BERT to obtain contextualized word embeddings. To construct the input vectors of the TTS decoder, the produced representations of the input phonemes are concatenated with the BERT-based contextualized embedding of the corresponding word that the phonemes belong to. As a result, BERT helps increase the quality of the output synthesized speech. Here, the pre-trained BERT is used to provide additional contextual information for phoneme representations indirectly. Therefore, it might be better if the contextualized phoneme representations are directly produced by a pre-trained BERT-type model that is learned from unlabeled phoneme-level data.
+
+Machine learning models represent valuable intellectual property: the process of gathering training data, iterating over model design, and tuning hyperparameters costs considerable money and effort. As such, these models are often only indirectly accessible through web APIs that allow users to query a model but not inspect its parameters. Malicious users might try to sidestep the expensive model development cycle by instead locally reproducing an existing model served by such an API. In these attacks, known as \"model stealing\" or \"model extraction\" (Lowd & Meek, 2005;Tram\u00e8r et al., 2016), the adversary issues a large number of queries and uses the collected (input, output) pairs to train a local copy of the model. Besides theft of intellectual property, extracted models may leak sensitive information about the training data (Tram\u00e8r et al., 2016) or be used to generate adversarial examples that evade the model served by the API (Papernot et al., 2017).
+
+Most biometric recognition work pertaining to NIR iris images have focused on extracting the iris region from the captured ocular image (see Figure 1). Thus, algorithms for soft biometric prediction have typically focused on the iris region rather than the extended ocular region (see Figure 4). Recent work [28] based on the Binarized Statistical Image Feature (BSIF) descriptor has shown that the extended ocular region commonly imaged by iris recognition systems provides greater sex prediction accuracy than the iris-only region. Predicting soft biometric attributes from the ocular region provides one major advantage over the iris region in that it does not require a potentially error prone algorithm for iris region extraction. Bobeldyk and Ross [28] were able to achieve an 85.7% sex prediction accuracy using concatenated histograms from tesselated regions of the BSIF code computed from NIR ocular images.
+
+In addition to performing the task of recognizing an individual [4], it is possible to predict attributes about the individual, such as gender, race and age, from the raw biometric data itself. These attributes are referred to as soft biometrics [5]. Soft biometric attributes may not be discriminative enough to uniquely identify an individual, but can be used to increase the recognition accuracy of a biometric system [6]. In addition to increased performance, there are several other motivating factors to glean these attributes from the raw biometric data.
+
+The large-scale pre-trained language models, e.g. bert [10], Roberta [11] and ALbert [12], have proved their effectiveness, improving state-of-the-art performances of various natural language processing research and application tasks. For TTS, some works incorporate contextualized word embeddings generated by the pre-trained bert [10] into their standard encoder [13,14,15]. In general, an input phoneme sequence is fed into the standard TTS encoder to produce phoneme representations, while its corresponding raw text is fed into bert to obtain contextualized word embeddings. To construct the input vectors of the TTS decoder, the produced representations of the input phonemes are concatenated with the bert-based contextualized embedding of the corresponding word that the phonemes belong to. As a result, bert helps increase the quality of the output synthesized speech. Here, the pre-trained bert is used to provide additional contextual information for phoneme representations indirectly. Therefore, it might be better if the contextualized phoneme representations are directly produced by a pre-trained bert-type model that is learned from unlabeled phoneme-level data.
+
+Tram\u00e8r et al. (2016)racy using WIKI queries on MNLI and SQuAD with mismatched BERT architectures between the victim and attacker.Note the trend: (large, large) > (base, large) > (base, base) > (large, base) where the (\u2022, \u2022) refers to (victim, attacker) pretraining.Next, we experiment with an alternative non-BERT pretrained language model as the attacker architecture.We use XLNet-large(Yang et al., 2019), which has been shown to outperform BERT-large in a large variety of downstream NLP tasks.In Table5, we compare XLNet-large and BERT-large attacker architectures keeping a fixed BERT-large victim architecture.Note the superior performance of xlnet-large attacker models on SQuAD compared to BERT-large in both RANDOM and WIKI attack settings, despite seeing a mismatched victim's (BERT-large) outputs during training.Our experiments are reminiscent of similar discussion inTram\u00e8r et al. (2016)on Occam Learning, or appropriate alignment of victim-attacker architectures. Overall, the results suggest that attackers can maximize their accuracy by fine-tuning more powerful language models, and that matching architectures is a secondary concern.
+
+Recent works confirm that pre-trained models for phoneme representations, including png bert [16], mixed-phoneme bert [17] and Phoneme-level BERT [18], help improve advanced TTS systems. png bert and mixed-phoneme bert are trained based on the BERT pre-training approach [10], in which png bert takes both phonemes and graphemes (i.e. subword tokens) as the input, while mixed-phoneme bert takes both phonemes and sup-phoneme tokens as the input. Phoneme-level BERT is trained based on the ALBERT pretraining approach [12], only taking phonemes as the input. In addition to the standard masked token prediction task as used in png bert and mixed-phoneme bert, the Phoneme-level BERT also proposes an additional auxiliary task that predicts the corresponding grapheme for each phoneme. Here, png bert, mixed-phoneme bert and Phoneme-level BERT can be directly used as an input encoder in a typical neural TTS system. Note that the success of these pre-trained language models has been limited to the English language only. Taking into account a societal, linguistic, cultural, machine learning and cognitive perspective [19], it is worth exploring pre-trained models for phoneme representations in languages other than English.
+
+We introduce llama, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, llama-13B outperforms GPT-3 (175B) on most benchmarks, and llama-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community 1 .
+
+Gender classification based on iris images is promising despite challenging problems presented in terms of image analysis [20,36,30]. The human iris is an annular part between the pupil and the white sclera. The iris has an extraordinary structure and includes many interlacing minute features such as freckles, coronas, stripes, furrows, crypts and so on. These visible features, generally called the texture of the iris, are unique to each individual [1,10,11]. Research has also shown that the iris is essentially stable throughout a person's life. Furthermore, since the iris is externally visible, iris-based biometrics systems can be non-invasive to their users [10,11] which is important for practical applications. All these properties (i.e., uniqueness, stability and non-invasiveness) make gender classification suitable and attractive as a complement for achieving highly reliable personal identification.
+
+The two extensions introduced previously are combined in a simple manner. First, the biLSTM hidden vectors of answers h a (t) are multiplied by s a,q (t), which is computed from the question average pooling vectors o q , and updated to h a (t), illustrated in Eq. 9-11. Then, the original question and updated answer hidden vectors serve as inputs of CNN structure respectively, such that the question context can be used to evaluate the softmax weights of the input of CNN. From the experiments, we observe that the two extensions vary on their contributions on the performance improvement according to different datasets. However, QA-LSTM/CNN with attention can outperform the baselines on both datasets.
+
+We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, chinchilla-70b and palm-540b. We release all our models to the research community 1 .
+
+Soft biometric information such as gender can contribute to many applications like as identification and security. This paper explores the use of a binary statistical features (BSIF) algorithm for classifying gender from iris texture images captured with NIR sensors. It uses the same pipeline for iris recognition systems consisting of iris segmentation, normalisation and then classification. Experiments show that applying BSIF is not straightforward since it can create artificial textures causing misclassification. In order to overcome this limitation, a new set of filters was trained from eye images and different sized filters with padding bands were tested on a subject-disjoint database. A Modified-BSIF (MBSIF) method was implemented. The latter achieved better gender classification results (94.6% and 91.33% for the left and right eye respectively). These results are competitive with the state of the art in gender classification. In an additional contribution, a novel gender labelled database was created and it will be available upon request.
+
+Our multilingual pre-training dataset is constructed following three phases. The first phase is to collect text documents and then perform word and sentence segmentation as well as duplicate removal and text normalization. The second phase is to convert texts into phonemes, employing the charsiug2p toolkit [21] that supports 90+ languages and locales. Finally, the third phase is to perform phoneme segmentation.
+
+Tram\u00e8r et al. (2016)racy using WIKI queries on MNLI and SQuAD with mismatched BERT architectures between the victim and attacker.Note the trend: (large, large) > (base, large) > (base, base) > (large, base) where the (\u2022, \u2022) refers to (victim, attacker) pretraining.Next, we experiment with an alternative non-BERT pretrained language model as the attacker architecture.We use XLNet-large(Yang et al., 2019), which has been shown to outperform BERT-large in a large variety of downstream NLP tasks.In Table5, we compare XLNet-large and bert-large attacker architectures keeping a fixed BERT-large victim architecture.Note the superior performance of XLNet-large attacker models on SQuAD compared to BERT-large in both RANDOM and WIKI attack settings, despite seeing a mismatched victim's (BERT-large) outputs during training.Our experiments are reminiscent of similar discussion inTram\u00e8r et al. (2016)on Occam Learning, or appropriate alignment of victim-attacker architectures. Overall, the results suggest that attackers can maximize their accuracy by fine-tuning more powerful language models, and that matching architectures is a secondary concern.
+
+SQuAD dev set results comparing BERT-large and xlnet-large attacker architectures. Note the effectiveness of XLNet-large over BERT-large in both RANDOM and WIKI attack settings, despite seeing BERT-LARGE victim outputs during training. Legend: Training Data X, Y represent the input and output pairs used while training the attacker model; ORIGINAL represents the original SQuAD dataset; BERT-LARGE represents the outputs from the victim BERT-large model.
+
+We study model extraction attacks against NLP APIs that serve bert-based models. These attacks are surprisingly effective at extracting good models with low query budgets, even when an attacker uses nonsensical input queries. Our results show that fine-tuning large pretrained language models simplifies the process of extraction for an attacker. Unfortunately, existing defenses against extraction, while effective in some scenarios, are generally inadequate, and further research is necessary to develop defenses robust in the face of adaptive adversaries who develop counter-attacks anticipating simple defenses. Other interesting future directions that follow from the results in this paper include (1) leveraging nonsensical inputs to improve model distillation on tasks for which it is difficult to procure input data; (2) diagnosing dataset complexity by using query efficiency as a proxy; and (3) further investigation of the agreement between victim models as a method to identify proximity in input distribution and its incorporation into an active learning setup for model extraction.
+
+We evaluate the ability of our models to write code from a natural language description on two benchmarks: humaneval (Chen et al., 2021) and mbpp (Austin et al., 2021). For both tasks, the model receives a description of the program in a few sentences, as well as a few input-output examples. In humaneval, it also receives a function signature, and the prompt is formatted as natural code with the textual description and tests in a MATH +maj1@k GSM8k +maj1@k PaLM 8B docstring. The model needs to generate a Python program that fits the description and satisfies the test cases. In Table 8, we compare the pass@1 scores of our models with existing language models that have not been finetuned on code, namely PaLM and LaMDA (Thoppilan et al., 2022). PaLM and LLaMA were trained on datasets that contain a similar number of code tokens.
+
+This section outlines the architecture and describes the multilingual pre-training corpus and optimization setup that we use for XPhoneBERT.
+
+First, we evaluate our extraction procedure in a controlled setting where an attacker uses an identical number of queries as the original training dataset (Table 2); afterwards, we investigate different query budgets for each task (Table 3). We provide commercial cost estimates for these query budgets using the Google Cloud Platform's Natural Language API calculator. 7 We use two metrics for evaluation: Accuracy of the extracted models on the original development set, and Agreement between the outputs of the extracted model and the victim model on the original development set inputs. Note that these metrics are defined at a label level -metrics are calculated using the argmax labels of the probability vectors predicted by the victim and extracted model.
+
+Another direction is to apply the method to novel tasks and models. While an extension to sequence labeling is straightforward, other tasks with more complex interactions such as entailment or question answering may require novel ways to pretrain and fine-tune. Finally, while we have provided a series of analyses and ablations, more studies are required to better understand what knowledge a pretrained language model captures, how this changes during fine-tuning, and what information different tasks require.
+
+The cost of vision-and-language pre-training has become increasingly prohibitive due to end-toend training of large-scale models. This paper proposes blip-2, a generic and efficient pretraining strategy that bootstraps vision-language pre-training from off-the-shelf frozen pre-trained image encoders and frozen large language models. BLIP-2 bridges the modality gap with a lightweight Querying Transformer, which is pretrained in two stages. The first stage bootstraps vision-language representation learning from a frozen image encoder. The second stage bootstraps vision-to-language generative learning from a frozen language model. blip-2 achieves state-of-the-art performance on various visionlanguage tasks, despite having significantly fewer trainable parameters than existing methods. For example, our model outperforms Flamingo80B by 8.7% on zero-shot VQAv2 with 54x fewer trainable parameters. We also demonstrate the model's emerging capabilities of zero-shot image-to-text generation that can follow natural language instructions.
+
+We present XPhoneBERT, the first multilingual model pretrained to learn phoneme representations for the downstream text-to-speech (TTS) task. Our XPhoneBERT has the same model architecture as bert-base, trained using the RoBERTa pre-training approach on 330M phoneme-level sentences from nearly 100 languages and locales. Experimental results show that employing XPhoneBERT as an input phoneme encoder significantly boosts the performance of a strong neural TTS model in terms of naturalness and prosody and also helps produce fairly high-quality speech with limited training data. We publicly release our pre-trained XPhoneBERT with the hope that it would facilitate future research and downstream TTS applications for multiple languages.
+
+For each language whose locales do not have their own wikipedia data, 5 we randomly divide the language's wikipedia data into equal parts (each with the same number of sentences), with each part corresponding to a locale. For example, we divide 67 million English sentences into two equal parts that are then separately converted into phonemic descriptions in British English (eng-uk) and American English (eng-us).
+
+Most VLP methods perform end-to-end pre-training using large-scale image-text pair datasets. As the model size keeps increasing, the pre-training can incur an extremely high computation cost. Moreover, it is inflexible for end-to-end pre-trained models to leverage readily-available unimodal pre-trained models, such as LLMs (Brown et al., 2020;Zhang et al., 2022;Chung et al., 2022).
+
+Specifically, we provide an efficient GPU inference algorithm for SpQR which yields faster inference than 16-bit baselines at similar accuracy, while enabling memory compression gains of more than 4x.
+
+Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/ysymyth/tree-of-thought-llm.\nPreprint. Under review.
+
+We also experiment with another setting where the tts training data is limited. In particular, for each language, we Table 2: Obtained results on the English test set. \"100%\" and \"5%\" denote the first experimental setting of using the whole tts training set and the second experimental setting of using only 5% of the TTS training set for training, respectively. \"XPB\" abbreviates our XPhoneBERT. The MOS is reported with 95% confidence intervals (here, each MOS score difference between two models is significant with p-value < 0.05). randomly sample 5% of the training audio clips, and then only use those sampled audios for training (total duration of about 1.2 hours for English and about 0.9 hours for Vietnamese). We apply the same training protocol used for the first setting with an exception that we run for 100K training steps.
+
+Fine-tuning Fine-tuning has been used successfully to transfer between similar tasks, e.g. in QA (Min et al., 2017), for distantly supervised sentiment analysis (Severyn and Moschitti, 2015), or MT domains (Sennrich et al., 2015) but has been shown to fail between unrelated ones (Mou et al., 2016). Dai and Le (2015) also fine-tune a language model, but overfit with 10k labeled examples and require millions of in-domain documents for good performance. In contrast, ULMFiT leverages general-domain pretraining and novel finetuning techniques to prevent overfitting even with only 100 labeled examples and achieves state-ofthe-art results also on small datasets.
+
+Several classification algorithms are used to test gender information from iris texture images. Those algorithms are: Adaboost M1, LogitBoost, GentleBoost, robustboost, LP-Boost, TotalBoost and RusBoost. Additionally, a Random Forest classifier with 500 trees, a Gini Index, and a LIB-SVM classifier with Gaussian Kernel (RBF) were also used. A comparison of the results obtained with these classifiers is shown in section 4.
+
+To this end, if not mentioned otherwise, we use the same set of hyperparameters across tasks, which we tune on the imdb validation set. We use the AWD-LSTM language model (Merity et al., 2017a) with an embedding size of 400, 3 layers, 1150 hidden activations per layer, and a BPTT batch size of 70. We apply dropout of 0.4 to layers, 0.3 to RNN layers, 0.4 to input embedding layers, 0.05 to embedding layers, and weight dropout of 0.5 to the RNN hidden-to-hidden matrix. The classifier has a hidden layer of size 50.
+
+Here, we employ the multilingual datasets wiki40b [22] and wikipedia [23], available to download from the Hugging Face datasets library [24]. In particular, we first download the wiki40b dataset consisting of text documents for 41 Wikipedia languages and locales. 1 We then use wikipedia to extract texts from Wikipedia dumps for remaining languages other than those belonging to wiki40b. 2 e perform word and sentence segmentation on all text documents in each language by using the spaCy toolkit, 3 except for Vietnamese where we employ RDRSegmenter [25] from the VnCoreNLP toolkit [26]. We then lowercase all sentences and filter out duplicate sentences and single-word ones. We also apply text normalization to convert texts from their written form into their verbalized form for only English, German, Spanish, Vietnamese and Chinese (it is because we could not find an effective text normalization tool publicly available for other languages). Here, we use the text normalization component from the nvidia nemo toolkit [27] for English, German, Spanish and Chinese, and the Vinorm text normalization package for Vietnamese.
+
+We also experiment with another setting where the tts training data is limited. In particular, for each language, we Table 2: Obtained results on the English test set. \"100%\" and \"5%\" denote the first experimental setting of using the whole TTS training set and the second experimental setting of using only 5% of the tts training set for training, respectively. \"XPB\" abbreviates our XPhoneBERT. The MOS is reported with 95% confidence intervals (here, each MOS score difference between two models is significant with p-value < 0.05). randomly sample 5% of the training audio clips, and then only use those sampled audios for training (total duration of about 1.2 hours for English and about 0.9 hours for Vietnamese). We apply the same training protocol used for the first setting with an exception that we run for 100K training steps.
+
+To fill the gap, we train the first large-scale multilingual language model for phoneme representations, using a pre-training corpus of 330M phonemic description sentences from nearly 100 languages and locales. Our model is trained based on the RoBERTa pre-training approach [11], using the BERT-base model configuration [10]. We conduct experiments on the downstream TTS task, directly employing our model as an input phoneme encoder of the strong model VITS [9]. Experimental results show that our model helps boost the performance of VITS, obtaining more natural prosody than the original VITS without pre-training and also producing fairly high-quality synthesized speech with limited training data. We summarize our contribution as follows:
+
+We employ a white-space tokenizer, resulting in a vocabulary of 1960 phoneme types. Our XPhoneBERT thus has a total of 87.6M parameters. For training XPhoneBERT on our multilingual pre-training corpus, we employ the RoBERTa implementation [11] from the fairseq library [29]. We set a maximum sequence length of 512. We optimize the model using Adam [30] and use a batch size of 1024 sequence blocks across 8 A100 GPUs (40GB each) and a peak learning rate of 0.0001. We train for 20 epochs in about 18 days (here, the first 2 epochs are used for warming up the learning rate).
+
+The fixed width of hidden vectors becomes a bottleneck, when the bidirectional LSTM models must propagate dependencies over long distances over the questions and answers. An attention mechanism are used to alleviate this weakness by dynamically aligning the more informative parts of answers to the questions. This strategy has been used in many other natural language processing tasks, such as machine translation , sentence summarization  and factoid question answering. Inspired by the work , we develop a very simple but efficient word-level attention on the basic model. Figure 3 shows the structure. Prior to the average or mean pooling, each biLSTM output vector will be multiplied by a softmax weight, which is determined by the question embedding from biLSTM."
+
+SQuAD dev set results comparing BERT-large and XLNet-large attacker architectures. Note the effectiveness of XLNet-large over BERT-large in both RANDOM and WIKI attack settings, despite seeing bert-large victim outputs during training. Legend: Training Data X, Y represent the input and output pairs used while training the attacker model; ORIGINAL represents the original SQuAD dataset; BERT-LARGE represents the outputs from the victim BERT-large model.
+
+SQuAD dev set results comparing BERT-large and XLNet-large attacker architectures. Note the effectiveness of xlnet-large over BERT-large in both RANDOM and WIKI attack settings, despite seeing BERT-LARGE victim outputs during training. Legend: Training Data X, Y represent the input and output pairs used while training the attacker model; ORIGINAL represents the original SQuAD dataset; BERT-LARGE represents the outputs from the victim BERT-large model.
+
+Deep convolutional neural networks have recently been substantially improving upon the state of the art in image classification and other recognition tasks [2, 6,10]. Since their introduction in the early 1990s [7], convolutional neural networks have consistently been competitive with other techniques for image classification and recognition. Recently, they have pulled away from competing methods due the availability of larger data sets, better models and training algorithms and the availability of GPU computing to enable investigation of larger and deeper models.
+
+For English, we use the benchmark dataset LJSpeech [32] consisting of 13,100 audio clips of a single speaker with a total duration of about 24 hours (here, each clip is also provided with a gold-standard text transcription). Following [9], the dataset is split into training, validation and test sets of 12,500, 100 and 500 clip samples, respectively. For Vietnamese, we randomly sample 12,300 different medium-length sentences from the PhoBERT pre-training news data [33]. We hire a professional speaker to read each sentence in a studio and record the corresponding audio, resulting in a total duration of about 18 hours for 12,300 high-quality audio clips. We split our vietnamese tts dataset into training, validation and test sets of 12,000, 100 and 200 clips, respectively.
+
+In this work a gender classification method is proposed. It uses normalised iris texture information which is codified using mbsif. The outline of this paper is as follows: Section 2 reviews the state of the art in gender classification methods and describes the BSIF algorithm used in this work. Section 3 describes the pipeline of this work and the challenges faced when implementing mbsif algorithms. Experimental set-up and the results of gender classification using several classifiers and mbsif implementation settings are shown in Section 4. Finally, the conclusions are presented in section 5.
+
+We also experiment with another setting where the TTS training data is limited. In particular, for each language, we Table 2: Obtained results on the English test set. \"100%\" and \"5%\" denote the first experimental setting of using the whole tts training set and the second experimental setting of using only 5% of the tts training set for training, respectively. \"XPB\" abbreviates our XPhoneBERT. The MOS is reported with 95% confidence intervals (here, each MOS score difference between two models is significant with p-value < 0.05). randomly sample 5% of the training audio clips, and then only use those sampled audios for training (total duration of about 1.2 hours for English and about 0.9 hours for Vietnamese). We apply the same training protocol used for the first setting with an exception that we run for 100K training steps.
+
