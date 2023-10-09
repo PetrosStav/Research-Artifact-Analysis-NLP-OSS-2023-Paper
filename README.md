@@ -49,7 +49,7 @@ The original `Synthetic` and `Hybrid` datasets that contain the Snippets with th
 To **augment the datasets**, reconstruct the `Synthetic` and `Hybrid` **transformed QA pairs**, and split them into **train, dev and test sets**, please follow these steps:
 
 1. Run `"python augment_split_training_data_synthetic.py"` to augment and transform to the instruction-based QA task the Synthetic Dataset and create the train, dev and test sets.
-    - This will also download the paraphrase model if not in the cache folder, using the `paraphrase_model` script.
+    - This will also download the paraphrase model if not in the cache folder, using the `paraphrase_model.py` script.
 
 2. Run `"python augment_split_training_data_hybrid_diff.py"` to augment and transform to the instruction-based QA task only the real-paper instances from the Hybrid Dataset.
 
