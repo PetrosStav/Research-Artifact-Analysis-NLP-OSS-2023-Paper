@@ -38,6 +38,9 @@ Each snippet in the above datasets is transformed into **Question-Answer (QA) pa
 | Is the software defined in the \<m> and \</m> tags introduced or created by the authors of the publication in the snippet above? | No                         |
 | Is the software defined in the \<m> and \</m> tags used or adopted by the authors of the publication in the snippet above?       | Yes                        |
 
+# Setup
+
+To setup this repository, clone it, create a new conda environment, activate it and run `"pip install -r requirements.txt"`.
 
 # Dataset Reconstruction
 
@@ -45,12 +48,12 @@ The original `Synthetic` and `Hybrid` datasets that contain the Snippets with th
 
 To **augment the datasets**, reconstruct the `Synthetic` and `Hybrid` **transformed QA pairs**, and split them into **train, dev and test sets**, please follow these steps:
 
-1. Run `augment_split_training_data_synthetic.py` to augment and transform to the instruction-based QA task the Synthetic Dataset and create the train, dev and test sets.
+1. Run `"python augment_split_training_data_synthetic.py"` to augment and transform to the instruction-based QA task the Synthetic Dataset and create the train, dev and test sets.
     - This will also download the paraphrase model if not in the cache folder, using the `paraphrase_model` script.
 
-2. Run `augment_split_training_data_hybrid_diff.py` to augment and transform to the instruction-based QA task only the real-paper instances from the Hybrid Dataset.
+2. Run `"python augment_split_training_data_hybrid_diff.py"` to augment and transform to the instruction-based QA task only the real-paper instances from the Hybrid Dataset.
 
-3. Run `combine_hybrid_diff.py` to combine the synthetic and real data to create the final augmented and transformed Hybrid Dataset train, dev and test sets.
+3. Run `"python combine_hybrid_diff.py"` to combine the synthetic and real data to create the final augmented and transformed Hybrid Dataset train, dev and test sets.
 
 The final train, dev and test set files for the Synthetic and Hybrid datasets are:
 
