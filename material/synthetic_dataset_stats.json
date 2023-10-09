@@ -1,0 +1,1222 @@
+{
+ "original_snippets": {
+  "Train": {
+   "dataset": {
+    "Number of instances": 554,
+    "Number valid": [
+     476,
+     85.92
+    ],
+    "Number w. name": [
+     401,
+     72.38
+    ],
+    "Number w. version": [
+     42,
+     7.58
+    ],
+    "Number w. license": [
+     142,
+     25.63
+    ],
+    "Number w. URL": [
+     224,
+     40.43
+    ],
+    "Number w. ownership": [
+     158,
+     28.52
+    ],
+    "Number w. usage": [
+     296,
+     53.43
+    ],
+    "Number of unique snippets": 148
+   },
+   "software": {
+    "Number of instances": 647,
+    "Number valid": [
+     584,
+     90.26
+    ],
+    "Number w. name": [
+     468,
+     72.33
+    ],
+    "Number w. version": [
+     235,
+     36.32
+    ],
+    "Number w. license": [
+     192,
+     29.68
+    ],
+    "Number w. URL": [
+     171,
+     26.43
+    ],
+    "Number w. ownership": [
+     142,
+     21.95
+    ],
+    "Number w. usage": [
+     469,
+     72.49
+    ],
+    "Number of unique snippets": 176
+   },
+   "all": {
+    "Number of instances": 1201,
+    "Number valid": [
+     1060,
+     88.26
+    ],
+    "Number w. name": [
+     869,
+     72.36
+    ],
+    "Number w. version": [
+     277,
+     23.06
+    ],
+    "Number w. license": [
+     334,
+     27.81
+    ],
+    "Number w. URL": [
+     395,
+     32.89
+    ],
+    "Number w. ownership": [
+     300,
+     24.98
+    ],
+    "Number w. usage": [
+     765,
+     63.7
+    ],
+    "Number of unique snippets": 240
+   }
+  },
+  "Dev": {
+   "dataset": {
+    "Number of instances": 98,
+    "Number valid": [
+     87,
+     88.78
+    ],
+    "Number w. name": [
+     78,
+     79.59
+    ],
+    "Number w. version": [
+     11,
+     11.22
+    ],
+    "Number w. license": [
+     38,
+     38.78
+    ],
+    "Number w. URL": [
+     38,
+     38.78
+    ],
+    "Number w. ownership": [
+     35,
+     35.71
+    ],
+    "Number w. usage": [
+     57,
+     58.16
+    ],
+    "Number of unique snippets": 25
+   },
+   "software": {
+    "Number of instances": 123,
+    "Number valid": [
+     107,
+     86.99
+    ],
+    "Number w. name": [
+     90,
+     73.17
+    ],
+    "Number w. version": [
+     61,
+     49.59
+    ],
+    "Number w. license": [
+     46,
+     37.4
+    ],
+    "Number w. URL": [
+     38,
+     30.89
+    ],
+    "Number w. ownership": [
+     10,
+     8.13
+    ],
+    "Number w. usage": [
+     88,
+     71.54
+    ],
+    "Number of unique snippets": 25
+   },
+   "all": {
+    "Number of instances": 221,
+    "Number valid": [
+     194,
+     87.78
+    ],
+    "Number w. name": [
+     168,
+     76.02
+    ],
+    "Number w. version": [
+     72,
+     32.58
+    ],
+    "Number w. license": [
+     84,
+     38.01
+    ],
+    "Number w. URL": [
+     76,
+     34.39
+    ],
+    "Number w. ownership": [
+     45,
+     20.36
+    ],
+    "Number w. usage": [
+     145,
+     65.61
+    ],
+    "Number of unique snippets": 32
+   }
+  },
+  "Test": {
+   "dataset": {
+    "Number of instances": 89,
+    "Number valid": [
+     69,
+     77.53
+    ],
+    "Number w. name": [
+     58,
+     65.17
+    ],
+    "Number w. version": [
+     0,
+     0.0
+    ],
+    "Number w. license": [
+     20,
+     22.47
+    ],
+    "Number w. URL": [
+     16,
+     17.98
+    ],
+    "Number w. ownership": [
+     29,
+     32.58
+    ],
+    "Number w. usage": [
+     38,
+     42.7
+    ],
+    "Number of unique snippets": 25
+   },
+   "software": {
+    "Number of instances": 105,
+    "Number valid": [
+     98,
+     93.33
+    ],
+    "Number w. name": [
+     82,
+     78.1
+    ],
+    "Number w. version": [
+     57,
+     54.29
+    ],
+    "Number w. license": [
+     47,
+     44.76
+    ],
+    "Number w. URL": [
+     20,
+     19.05
+    ],
+    "Number w. ownership": [
+     28,
+     26.67
+    ],
+    "Number w. usage": [
+     74,
+     70.48
+    ],
+    "Number of unique snippets": 24
+   },
+   "all": {
+    "Number of instances": 194,
+    "Number valid": [
+     167,
+     86.08
+    ],
+    "Number w. name": [
+     140,
+     72.16
+    ],
+    "Number w. version": [
+     57,
+     29.38
+    ],
+    "Number w. license": [
+     67,
+     34.54
+    ],
+    "Number w. URL": [
+     36,
+     18.56
+    ],
+    "Number w. ownership": [
+     57,
+     29.38
+    ],
+    "Number w. usage": [
+     112,
+     57.73
+    ],
+    "Number of unique snippets": 33
+   }
+  }
+ },
+ "original_qa_pairs": {
+  "Train": {
+   "dataset": {
+    "Number of instances": 3419,
+    "Number of snippets w. tags": 554,
+    "Number valid": [
+     476,
+     85.92
+    ],
+    "Number w. name": [
+     401,
+     72.38
+    ],
+    "Number w. version": [
+     42,
+     7.58
+    ],
+    "Number w. license": [
+     142,
+     25.63
+    ],
+    "Number w. URL": [
+     224,
+     40.43
+    ],
+    "Number w. ownership": [
+     158,
+     28.52
+    ],
+    "Number w. usage": [
+     296,
+     53.43
+    ],
+    "Number of unique snippets": 554,
+    "Number of special-type": 0
+   },
+   "software": {
+    "Number of instances": 4193,
+    "Number of snippets w. tags": 647,
+    "Number valid": [
+     584,
+     90.26
+    ],
+    "Number w. name": [
+     468,
+     72.33
+    ],
+    "Number w. version": [
+     235,
+     36.32
+    ],
+    "Number w. license": [
+     192,
+     29.68
+    ],
+    "Number w. URL": [
+     171,
+     26.43
+    ],
+    "Number w. ownership": [
+     142,
+     21.95
+    ],
+    "Number w. usage": [
+     469,
+     72.49
+    ],
+    "Number of unique snippets": 647,
+    "Number of special-type": 0
+   },
+   "all": {
+    "Number of instances": 7612,
+    "Number of snippets w. tags": 1201,
+    "Number valid": [
+     1060,
+     88.26
+    ],
+    "Number w. name": [
+     869,
+     72.36
+    ],
+    "Number w. version": [
+     277,
+     23.06
+    ],
+    "Number w. license": [
+     334,
+     27.81
+    ],
+    "Number w. URL": [
+     395,
+     32.89
+    ],
+    "Number w. ownership": [
+     300,
+     24.98
+    ],
+    "Number w. usage": [
+     765,
+     63.7
+    ],
+    "Number of unique snippets": 240,
+    "Number of special-type": 0
+   }
+  },
+  "Dev": {
+   "dataset": {
+    "Number of instances": 620,
+    "Number of snippets w. tags": 98,
+    "Number valid": [
+     87,
+     88.78
+    ],
+    "Number w. name": [
+     78,
+     79.59
+    ],
+    "Number w. version": [
+     11,
+     11.22
+    ],
+    "Number w. license": [
+     38,
+     38.78
+    ],
+    "Number w. URL": [
+     38,
+     38.78
+    ],
+    "Number w. ownership": [
+     35,
+     35.71
+    ],
+    "Number w. usage": [
+     57,
+     58.16
+    ],
+    "Number of unique snippets": 98,
+    "Number of special-type": 0
+   },
+   "software": {
+    "Number of instances": 765,
+    "Number of snippets w. tags": 123,
+    "Number valid": [
+     107,
+     86.99
+    ],
+    "Number w. name": [
+     90,
+     73.17
+    ],
+    "Number w. version": [
+     61,
+     49.59
+    ],
+    "Number w. license": [
+     46,
+     37.4
+    ],
+    "Number w. URL": [
+     38,
+     30.89
+    ],
+    "Number w. ownership": [
+     10,
+     8.13
+    ],
+    "Number w. usage": [
+     88,
+     71.54
+    ],
+    "Number of unique snippets": 123,
+    "Number of special-type": 0
+   },
+   "all": {
+    "Number of instances": 1385,
+    "Number of snippets w. tags": 221,
+    "Number valid": [
+     194,
+     87.78
+    ],
+    "Number w. name": [
+     168,
+     76.02
+    ],
+    "Number w. version": [
+     72,
+     32.58
+    ],
+    "Number w. license": [
+     84,
+     38.01
+    ],
+    "Number w. URL": [
+     76,
+     34.39
+    ],
+    "Number w. ownership": [
+     45,
+     20.36
+    ],
+    "Number w. usage": [
+     145,
+     65.61
+    ],
+    "Number of unique snippets": 32,
+    "Number of special-type": 0
+   }
+  },
+  "Test": {
+   "dataset": {
+    "Number of instances": 509,
+    "Number of snippets w. tags": 89,
+    "Number valid": [
+     69,
+     77.53
+    ],
+    "Number w. name": [
+     58,
+     65.17
+    ],
+    "Number w. version": [
+     0,
+     0.0
+    ],
+    "Number w. license": [
+     20,
+     22.47
+    ],
+    "Number w. URL": [
+     16,
+     17.98
+    ],
+    "Number w. ownership": [
+     29,
+     32.58
+    ],
+    "Number w. usage": [
+     38,
+     42.7
+    ],
+    "Number of unique snippets": 89,
+    "Number of special-type": 0
+   },
+   "software": {
+    "Number of instances": 706,
+    "Number of snippets w. tags": 105,
+    "Number valid": [
+     98,
+     93.33
+    ],
+    "Number w. name": [
+     82,
+     78.1
+    ],
+    "Number w. version": [
+     57,
+     54.29
+    ],
+    "Number w. license": [
+     47,
+     44.76
+    ],
+    "Number w. URL": [
+     20,
+     19.05
+    ],
+    "Number w. ownership": [
+     28,
+     26.67
+    ],
+    "Number w. usage": [
+     74,
+     70.48
+    ],
+    "Number of unique snippets": 105,
+    "Number of special-type": 0
+   },
+   "all": {
+    "Number of instances": 1215,
+    "Number of snippets w. tags": 194,
+    "Number valid": [
+     167,
+     86.08
+    ],
+    "Number w. name": [
+     140,
+     72.16
+    ],
+    "Number w. version": [
+     57,
+     29.38
+    ],
+    "Number w. license": [
+     67,
+     34.54
+    ],
+    "Number w. URL": [
+     36,
+     18.56
+    ],
+    "Number w. ownership": [
+     57,
+     29.38
+    ],
+    "Number w. usage": [
+     112,
+     57.73
+    ],
+    "Number of unique snippets": 33,
+    "Number of special-type": 0
+   }
+  }
+ },
+ "augmented_snippets": {
+  "Train": {
+   "dataset": {
+    "Number of instances": 1981,
+    "Number valid": [
+     1694,
+     85.51
+    ],
+    "Number w. name": [
+     1422,
+     71.78
+    ],
+    "Number w. version": [
+     122,
+     6.16
+    ],
+    "Number w. license": [
+     519,
+     26.2
+    ],
+    "Number w. URL": [
+     764,
+     38.57
+    ],
+    "Number w. ownership": [
+     586,
+     29.58
+    ],
+    "Number w. usage": [
+     1016,
+     51.29
+    ],
+    "Number of unique snippets": 1589
+   },
+   "software": {
+    "Number of instances": 2247,
+    "Number valid": [
+     2022,
+     89.99
+    ],
+    "Number w. name": [
+     1614,
+     71.83
+    ],
+    "Number w. version": [
+     762,
+     33.91
+    ],
+    "Number w. license": [
+     616,
+     27.41
+    ],
+    "Number w. URL": [
+     593,
+     26.39
+    ],
+    "Number w. ownership": [
+     499,
+     22.21
+    ],
+    "Number w. usage": [
+     1631,
+     72.59
+    ],
+    "Number of unique snippets": 1796
+   },
+   "all": {
+    "Number of instances": 4228,
+    "Number valid": [
+     3716,
+     87.89
+    ],
+    "Number w. name": [
+     3036,
+     71.81
+    ],
+    "Number w. version": [
+     884,
+     20.91
+    ],
+    "Number w. license": [
+     1135,
+     26.84
+    ],
+    "Number w. URL": [
+     1357,
+     32.1
+    ],
+    "Number w. ownership": [
+     1085,
+     25.66
+    ],
+    "Number w. usage": [
+     2647,
+     62.61
+    ],
+    "Number of unique snippets": 3298
+   }
+  },
+  "Dev": {
+   "dataset": {
+    "Number of instances": 292,
+    "Number valid": [
+     258,
+     88.36
+    ],
+    "Number w. name": [
+     226,
+     77.4
+    ],
+    "Number w. version": [
+     33,
+     11.3
+    ],
+    "Number w. license": [
+     119,
+     40.75
+    ],
+    "Number w. URL": [
+     95,
+     32.53
+    ],
+    "Number w. ownership": [
+     118,
+     40.41
+    ],
+    "Number w. usage": [
+     160,
+     54.79
+    ],
+    "Number of unique snippets": 232
+   },
+   "software": {
+    "Number of instances": 335,
+    "Number valid": [
+     287,
+     85.67
+    ],
+    "Number w. name": [
+     237,
+     70.75
+    ],
+    "Number w. version": [
+     151,
+     45.07
+    ],
+    "Number w. license": [
+     128,
+     38.21
+    ],
+    "Number w. URL": [
+     60,
+     17.91
+    ],
+    "Number w. ownership": [
+     30,
+     8.96
+    ],
+    "Number w. usage": [
+     222,
+     66.27
+    ],
+    "Number of unique snippets": 258
+   },
+   "all": {
+    "Number of instances": 627,
+    "Number valid": [
+     545,
+     86.92
+    ],
+    "Number w. name": [
+     463,
+     73.84
+    ],
+    "Number w. version": [
+     184,
+     29.35
+    ],
+    "Number w. license": [
+     247,
+     39.39
+    ],
+    "Number w. URL": [
+     155,
+     24.72
+    ],
+    "Number w. ownership": [
+     148,
+     23.6
+    ],
+    "Number w. usage": [
+     382,
+     60.93
+    ],
+    "Number of unique snippets": 474
+   }
+  },
+  "Test": {
+   "dataset": {
+    "Number of instances": 282,
+    "Number valid": [
+     211,
+     74.82
+    ],
+    "Number w. name": [
+     171,
+     60.64
+    ],
+    "Number w. version": [
+     0,
+     0.0
+    ],
+    "Number w. license": [
+     79,
+     28.01
+    ],
+    "Number w. URL": [
+     28,
+     9.93
+    ],
+    "Number w. ownership": [
+     115,
+     40.78
+    ],
+    "Number w. usage": [
+     88,
+     31.21
+    ],
+    "Number of unique snippets": 230
+   },
+   "software": {
+    "Number of instances": 309,
+    "Number valid": [
+     295,
+     95.47
+    ],
+    "Number w. name": [
+     243,
+     78.64
+    ],
+    "Number w. version": [
+     178,
+     57.61
+    ],
+    "Number w. license": [
+     139,
+     44.98
+    ],
+    "Number w. URL": [
+     48,
+     15.53
+    ],
+    "Number w. ownership": [
+     81,
+     26.21
+    ],
+    "Number w. usage": [
+     241,
+     77.99
+    ],
+    "Number of unique snippets": 247
+   },
+   "all": {
+    "Number of instances": 591,
+    "Number valid": [
+     506,
+     85.62
+    ],
+    "Number w. name": [
+     414,
+     70.05
+    ],
+    "Number w. version": [
+     178,
+     30.12
+    ],
+    "Number w. license": [
+     218,
+     36.89
+    ],
+    "Number w. URL": [
+     76,
+     12.86
+    ],
+    "Number w. ownership": [
+     196,
+     33.16
+    ],
+    "Number w. usage": [
+     329,
+     55.67
+    ],
+    "Number of unique snippets": 463
+   }
+  }
+ },
+ "augmented_qa_pairs": {
+  "Train": {
+   "dataset": {
+    "Number of instances": 12147,
+    "Number of snippets w. tags": 1981,
+    "Number valid": [
+     1694,
+     85.51
+    ],
+    "Number w. name": [
+     1422,
+     71.78
+    ],
+    "Number w. version": [
+     122,
+     6.16
+    ],
+    "Number w. license": [
+     519,
+     26.2
+    ],
+    "Number w. URL": [
+     764,
+     38.57
+    ],
+    "Number w. ownership": [
+     586,
+     29.58
+    ],
+    "Number w. usage": [
+     1016,
+     51.29
+    ],
+    "Number of unique snippets": 1981,
+    "Number of special-type": 489
+   },
+   "software": {
+    "Number of instances": 14432,
+    "Number of snippets w. tags": 2247,
+    "Number valid": [
+     2022,
+     89.99
+    ],
+    "Number w. name": [
+     1614,
+     71.83
+    ],
+    "Number w. version": [
+     762,
+     33.91
+    ],
+    "Number w. license": [
+     616,
+     27.41
+    ],
+    "Number w. URL": [
+     593,
+     26.39
+    ],
+    "Number w. ownership": [
+     499,
+     22.21
+    ],
+    "Number w. usage": [
+     1631,
+     72.59
+    ],
+    "Number of unique snippets": 2247,
+    "Number of special-type": 616
+   },
+   "all": {
+    "Number of instances": 27639,
+    "Number of snippets w. tags": 4228,
+    "Number valid": [
+     3716,
+     87.89
+    ],
+    "Number w. name": [
+     3036,
+     71.81
+    ],
+    "Number w. version": [
+     884,
+     20.91
+    ],
+    "Number w. license": [
+     1135,
+     26.84
+    ],
+    "Number w. URL": [
+     1357,
+     32.1
+    ],
+    "Number w. ownership": [
+     1085,
+     25.66
+    ],
+    "Number w. usage": [
+     2647,
+     62.61
+    ],
+    "Number of unique snippets": 3298,
+    "Number of special-type": 1059
+   }
+  },
+  "Dev": {
+   "dataset": {
+    "Number of instances": 1840,
+    "Number of snippets w. tags": 292,
+    "Number valid": [
+     258,
+     88.36
+    ],
+    "Number w. name": [
+     226,
+     77.4
+    ],
+    "Number w. version": [
+     33,
+     11.3
+    ],
+    "Number w. license": [
+     119,
+     40.75
+    ],
+    "Number w. URL": [
+     95,
+     32.53
+    ],
+    "Number w. ownership": [
+     118,
+     40.41
+    ],
+    "Number w. usage": [
+     160,
+     54.79
+    ],
+    "Number of unique snippets": 292,
+    "Number of special-type": 64
+   },
+   "software": {
+    "Number of instances": 2057,
+    "Number of snippets w. tags": 335,
+    "Number valid": [
+     287,
+     85.67
+    ],
+    "Number w. name": [
+     237,
+     70.75
+    ],
+    "Number w. version": [
+     151,
+     45.07
+    ],
+    "Number w. license": [
+     128,
+     38.21
+    ],
+    "Number w. URL": [
+     60,
+     17.91
+    ],
+    "Number w. ownership": [
+     30,
+     8.96
+    ],
+    "Number w. usage": [
+     222,
+     66.27
+    ],
+    "Number of unique snippets": 335,
+    "Number of special-type": 71
+   },
+   "all": {
+    "Number of instances": 4021,
+    "Number of snippets w. tags": 627,
+    "Number valid": [
+     545,
+     86.92
+    ],
+    "Number w. name": [
+     463,
+     73.84
+    ],
+    "Number w. version": [
+     184,
+     29.35
+    ],
+    "Number w. license": [
+     247,
+     39.39
+    ],
+    "Number w. URL": [
+     155,
+     24.72
+    ],
+    "Number w. ownership": [
+     148,
+     23.6
+    ],
+    "Number w. usage": [
+     382,
+     60.93
+    ],
+    "Number of unique snippets": 474,
+    "Number of special-type": 124
+   }
+  },
+  "Test": {
+   "dataset": {
+    "Number of instances": 1572,
+    "Number of snippets w. tags": 282,
+    "Number valid": [
+     211,
+     74.82
+    ],
+    "Number w. name": [
+     171,
+     60.64
+    ],
+    "Number w. version": [
+     0,
+     0.0
+    ],
+    "Number w. license": [
+     79,
+     28.01
+    ],
+    "Number w. URL": [
+     28,
+     9.93
+    ],
+    "Number w. ownership": [
+     115,
+     40.78
+    ],
+    "Number w. usage": [
+     88,
+     31.21
+    ],
+    "Number of unique snippets": 282,
+    "Number of special-type": 64
+   },
+   "software": {
+    "Number of instances": 2103,
+    "Number of snippets w. tags": 309,
+    "Number valid": [
+     295,
+     95.47
+    ],
+    "Number w. name": [
+     243,
+     78.64
+    ],
+    "Number w. version": [
+     178,
+     57.61
+    ],
+    "Number w. license": [
+     139,
+     44.98
+    ],
+    "Number w. URL": [
+     48,
+     15.53
+    ],
+    "Number w. ownership": [
+     81,
+     26.21
+    ],
+    "Number w. usage": [
+     241,
+     77.99
+    ],
+    "Number of unique snippets": 309,
+    "Number of special-type": 84
+   },
+   "all": {
+    "Number of instances": 3815,
+    "Number of snippets w. tags": 591,
+    "Number valid": [
+     506,
+     85.62
+    ],
+    "Number w. name": [
+     414,
+     70.05
+    ],
+    "Number w. version": [
+     178,
+     30.12
+    ],
+    "Number w. license": [
+     218,
+     36.89
+    ],
+    "Number w. URL": [
+     76,
+     12.86
+    ],
+    "Number w. ownership": [
+     196,
+     33.16
+    ],
+    "Number w. usage": [
+     329,
+     55.67
+    ],
+    "Number of unique snippets": 463,
+    "Number of special-type": 140
+   }
+  }
+ }
+}
