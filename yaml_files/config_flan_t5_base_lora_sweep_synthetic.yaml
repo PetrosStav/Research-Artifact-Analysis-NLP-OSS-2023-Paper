@@ -1,0 +1,35 @@
+model_ver:
+  desc: Fine tuning Flan_t5_base
+  value: Flan_t5_base
+model_name:
+  desc: The name of the model
+  value: google/flan-t5-base
+log_bool:
+  desc: Whether to log the results
+  value: True
+batch_size:
+  desc: Batch size
+  value: 1
+max_length:
+  desc: Maximum length of the input
+  value: 1024
+train_data:
+  desc: The path to the training file
+  value: ./data/raa_synthetic_dataset_aug_transformed_train.json
+val_data:
+  desc: The path to the evaluation file
+  value: ./data/raa_synthetic_dataset_aug_transformed_dev.json
+checkpoint_name:
+  desc: The path to the checkpoint directory
+  value: flan_t5_base_lora
+output_dir:
+  desc: The path to the output directory
+  value: ./model_checkpoints/sweep_synthetic
+# wandb params
+wandb_project:
+  desc: The name of the wandb project
+  value: artifact_extraction_fine_tune_sweep_synthetic
+wandb_trials:
+  desc: The number of trials to run
+  value: 15
+wandb_log_model: str = "",
