@@ -3,7 +3,7 @@ This repository contains the files supporting the paper **"Empowering Knowledge 
 
 # Task Description
 
-The goal of our paper was to create a gold-annotated dataset and train a simple LLM model (`Flan-T5`) to transform the `Research Artifact Analysis (RAA)` task to an `instruction-based Question Answering (QA)` task.
+The goal of our paper was to create a gold-annotated dataset and fine-tune a small LLM model (`Flan-T5`) to transform the `Research Artifact Analysis (RAA)` task to an `instruction-based Question Answering (QA)` task.
 
 We created two datasets: `Synthetic` and `Hybrid`, and trained two models: `LoRA-Sy` and `LoRA-Hy` using the [LoRA](https://arxiv.org/pdf/2106.09685.pdf) method.
 
